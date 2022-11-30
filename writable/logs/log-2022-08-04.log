@@ -1,0 +1,88 @@
+CRITICAL - 2022-08-04 04:20:08 --> Undefined index: email
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Validation/Userrules.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/nocjadpy6...', 19, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\Userrules->validateJobUser('admin@123', 'email,password', Array, NULL)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'Password', 'admin@123', Array, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerRegister.php(264): CodeIgniter\Controller->validate(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerRegister->JobSeekingLogin()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerRegister))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 04:20:48 --> Undefined index: email
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Validation/Userrules.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/nocjadpy6...', 19, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\Userrules->validateJobUser('admin@123', 'email,password', Array, NULL)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'Password', 'admin@123', Array, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerRegister.php(264): CodeIgniter\Controller->validate(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerRegister->JobSeekingLogin()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerRegister))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 04:21:07 --> Undefined index: email
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Validation/Userrules.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/nocjadpy6...', 19, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\Userrules->validateJobUser('admin@123', 'email,password', Array, NULL)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'Password', 'admin@123', Array, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerRegister.php(264): CodeIgniter\Controller->validate(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerRegister->JobSeekingLogin()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerRegister))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 04:25:03 --> Undefined index: email
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Validation/Userrules.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/nocjadpy6...', 19, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Validation/Validation.php(277): App\Validation\Userrules->validateJobUser('admin@123', 'email,password', Array, NULL)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Validation/Validation.php(151): CodeIgniter\Validation\Validation->processRules('password', 'password', 'admin@123', Array, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerRegister.php(273): CodeIgniter\Controller->validate(Array, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerRegister->JobSeekingLogin()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerRegister))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 05:03:09 --> Undefined variable: header
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/job-seeker-equipment-form.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 12, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('job-seeker-equi...', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerEquipment.php(65): view('job-seeker-equi...', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerEquipment->EquipmentForm()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerEquipment))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 05:07:10 --> Undefined variable: header
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/job-seeker-equipment-form.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 12, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('job-seeker-equi...', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerEquipment.php(65): view('job-seeker-equi...', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerEquipment->EquipmentForm()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerEquipment))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 05:10:39 --> Undefined variable: header
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/job-seeker-equipment-form.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 12, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('job-seeker-equi...', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerEquipment.php(62): view('job-seeker-equi...', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerEquipment->EquipmentForm()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerEquipment))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-04 05:15:17 --> Undefined variable: header
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/job-seeker-equipment-form.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 12, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('job-seeker-equi...', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerEquipment.php(62): view('job-seeker-equi...', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerEquipment->EquipmentForm()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerEquipment))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

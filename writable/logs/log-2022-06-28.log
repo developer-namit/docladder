@@ -1,0 +1,27 @@
+CRITICAL - 2022-06-28 05:20:47 --> Call to undefined function App\Controllers\random_string()
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\AjexCallback->check_email()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjexCallback))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-28 05:49:12 --> Class 'App\Controllers\RecruiterModel' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\AjexCallback->check_email()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjexCallback))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-28 06:35:00 --> Undefined index: email
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/AjexCallback.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/nocjadpy6...', 97, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\AjexCallback->check_email()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjexCallback))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-28 06:36:29 --> Undefined variable: email
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterModel.php(88): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 88, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/AjexCallback.php(97): App\Models\RecruiterModel->Updatetoken(Array, 'shilpa.dhiman76...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\AjexCallback->check_email()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjexCallback))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,444 @@
+CRITICAL - 2022-11-03 00:12:57 --> Trying to access array offset on value of type null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(298): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/nocjadpy6...', 298, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 00:13:23 --> Trying to access array offset on value of type null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(298): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/nocjadpy6...', 298, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 00:15:49 --> Trying to access array offset on value of type null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(298): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/nocjadpy6...', 298, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 00:16:58 --> Trying to access array offset on value of type null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(298): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/nocjadpy6...', 298, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 00:21:31 --> Undefined variable: session
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(245): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 245, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 01:59:13 --> Undefined variable: db
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobseekerSearchModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 104, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobseekerSearchModel.php(81): App\Models\JobseekerSearchModel->Recent_searching(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecentJobs.php(56): App\Models\JobseekerSearchModel->count_all(9, 1, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecentJobs->index()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecentJobs))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-03 02:29:24 --> Undefined variable: msg
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/AjexCallback.php(191): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 191, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\AjexCallback->checkemail()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjexCallback))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 02:32:28 --> Undefined variable: searching
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(240): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 240, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(112): App\Controllers\JobSeekerSearch->searchsimilar('92')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->jobdescription('92')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 02:37:31 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/uploadResume/logo_app 2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 344, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(344): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->editResume()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 02:38:30 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/uploadResume/logo_app 2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 344, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(344): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->editResume()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 02:38:31 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/uploadResume/logo_app 2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 344, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(344): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->editResume()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 02:39:24 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/uploadResume/logo_app 2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 344, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(344): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->editResume()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 02:39:24 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/uploadResume/logo_app 2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 344, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(344): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->editResume()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 02:39:24 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/uploadResume/logo_app 2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 344, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(344): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->editResume()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 03:07:36 --> Undefined variable: msg
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/AjexCallback.php(187): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 187, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\AjexCallback->checkemail()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjexCallback))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 03:09:26 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/uploadResume/logo_app 2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 344, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(344): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->editResume()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 03:09:26 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/uploadResume/logo_app 2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 344, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(344): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->editResume()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 03:09:26 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/uploadResume/logo_app 2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 344, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(344): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->editResume()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 03:09:27 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/uploadResume/logo_app 2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 344, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(344): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->editResume()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 03:12:03 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/uploadResume/logo_app 2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 344, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(344): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->editResume()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 03:12:03 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/uploadResume/logo_app 2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 344, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(344): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->editResume()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 03:12:04 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/uploadResume/logo_app 2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 344, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(344): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->editResume()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 03:21:12 --> Undefined variable: totalTime
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 40, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-03 03:21:18 --> Undefined variable: totalTime
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 40, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-03 03:34:52 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', '/home/nocjadpy6...', 249, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/recruiter-simple-results.php(249): explode(',', Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('recruiter-simpl...', Array, true)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(202): view('recruiter-simpl...', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-03 03:35:51 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('recruiter-simpl...', Array, true)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(202): view('recruiter-simpl...', Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-03 03:36:32 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', '/home/nocjadpy6...', 250, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/recruiter-simple-results.php(250): explode(',', Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('recruiter-simpl...', Array, true)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(202): view('recruiter-simpl...', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-03 03:55:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getRowResult()
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-03 03:57:59 --> Undefined variable: row
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 162, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 03:58:43 --> Undefined variable: row
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(162): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 162, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 03:59:32 --> Undefined variable: pay
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 169, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 04:40:44 --> Undefined variable: searching
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(240): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 240, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(112): App\Controllers\JobSeekerSearch->searchsimilar('92')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->jobdescription('92')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-03 04:43:36 --> Undefined variable: db
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobseekerSearchModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 104, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobseekerSearchModel.php(81): App\Models\JobseekerSearchModel->Recent_searching(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecentJobs.php(56): App\Models\JobseekerSearchModel->count_all(9, 1, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecentJobs->index()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecentJobs))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-03 04:45:34 --> Undefined variable: db
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobseekerSearchModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 104, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobseekerSearchModel.php(81): App\Models\JobseekerSearchModel->Recent_searching(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecentJobs.php(56): App\Models\JobseekerSearchModel->count_all(9, 1, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecentJobs->index()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecentJobs))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-03 04:49:01 --> Undefined variable: db
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobseekerSearchModel.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 104, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobseekerSearchModel.php(81): App\Models\JobseekerSearchModel->Recent_searching(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecentJobs.php(56): App\Models\JobseekerSearchModel->count_all(9, 1, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecentJobs->index()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecentJobs))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-03 05:08:28 --> Trying to access array offset on value of type null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Home.php(250): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/nocjadpy6...', 250, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->categorylist('$i')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 05:08:43 --> Trying to access array offset on value of type null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Home.php(250): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/nocjadpy6...', 250, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->categorylist('$i')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 08:01:25 --> Undefined variable: db
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 83, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->index()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 08:02:04 --> Undefined variable: value
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 85, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->index()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 08:22:57 --> Undefined index: maxexp
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/manage-jobs.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/nocjadpy6...', 78, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('manage-jobs', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManagePosting.php(50): view('manage-jobs', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManagePosting->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManagePosting))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-03 08:43:25 --> Illegal string offset 'max_experience'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManagePosting.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/home/nocjadpy6...', 180, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManagePosting->Getjobposting()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManagePosting))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 08:43:27 --> Illegal string offset 'max_experience'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManagePosting.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/home/nocjadpy6...', 180, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManagePosting->Getjobposting()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManagePosting))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 08:43:29 --> Illegal string offset 'max_experience'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManagePosting.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/home/nocjadpy6...', 180, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManagePosting->Getjobposting()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManagePosting))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 08:43:31 --> Illegal string offset 'max_experience'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManagePosting.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/home/nocjadpy6...', 180, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManagePosting->Getjobposting()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManagePosting))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 08:43:31 --> Illegal string offset 'max_experience'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManagePosting.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/home/nocjadpy6...', 180, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManagePosting->Getjobposting()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManagePosting))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 08:43:31 --> Illegal string offset 'max_experience'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManagePosting.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/home/nocjadpy6...', 180, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManagePosting->Getjobposting()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManagePosting))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 11:28:25 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recr...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(99): spl_autoload_call('App\\Models\\Recr...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-03 11:48:05 --> Call to undefined function App\Controllers\impload()
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->updateprofile()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-11-03 11:48:55 --> Array to string conversion
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/nocjadpy6...', 140, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->updateprofile()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 11:50:11 --> Array to string conversion
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(144): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/nocjadpy6...', 144, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->updateprofile()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-03 23:23:05 --> Column 'session_id' cannot be null
+CRITICAL - 2022-11-03 23:23:05 --> Column 'session_id' cannot be null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(102): CodeIgniter\Model->insert(Array)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-11-03 23:34:08 --> Trying to access array offset on value of type null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Home.php(250): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/nocjadpy6...', 250, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->categorylist('$i')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 23:34:14 --> Trying to access array offset on value of type null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Home.php(250): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/nocjadpy6...', 250, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->categorylist('$i')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 23:34:21 --> Trying to access array offset on value of type null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Home.php(250): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/nocjadpy6...', 250, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->categorylist('$i')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 23:34:27 --> Trying to access array offset on value of type null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Home.php(250): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/nocjadpy6...', 250, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->categorylist('$i')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-11-03 23:34:53 --> Trying to access array offset on value of type null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Home.php(250): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/nocjadpy6...', 250, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->categorylist('$i')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,53 @@
+ERROR - 2022-08-29 08:19:43 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-08-29 08:19:43 --> Unknown column 'status' in 'where clause'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('\r\n  SELECT * FR...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('\r\n  SELECT * FR...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n  SELECT * FR...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/ProductEquipment.php(60): CodeIgniter\Database\BaseConnection->query('\r\n  SELECT * FR...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/EquipmentsProduct.php(57): App\Models\ProductEquipment->fetch_data(NULL, NULL, NULL, '', '')
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\EquipmentsProduct->product_filter()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquipmentsProduct))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-29 08:20:41 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-08-29 08:20:41 --> Unknown column 'status' in 'where clause'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('\r\n  SELECT * FR...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('\r\n  SELECT * FR...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n  SELECT * FR...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/ProductEquipment.php(60): CodeIgniter\Database\BaseConnection->query('\r\n  SELECT * FR...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/EquipmentsProduct.php(57): App\Models\ProductEquipment->fetch_data(Array, NULL, NULL, '', '')
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\EquipmentsProduct->product_filter()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquipmentsProduct))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-29 08:20:43 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-08-29 08:20:43 --> Unknown column 'status' in 'where clause'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('\r\n  SELECT * FR...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('\r\n  SELECT * FR...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n  SELECT * FR...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/ProductEquipment.php(60): CodeIgniter\Database\BaseConnection->query('\r\n  SELECT * FR...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/EquipmentsProduct.php(57): App\Models\ProductEquipment->fetch_data(NULL, NULL, NULL, '', '')
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\EquipmentsProduct->product_filter()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquipmentsProduct))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-29 08:22:07 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-08-29 08:22:07 --> Unknown column 'status' in 'where clause'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('\r\n  SELECT * FR...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('\r\n  SELECT * FR...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n  SELECT * FR...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/ProductEquipment.php(60): CodeIgniter\Database\BaseConnection->query('\r\n  SELECT * FR...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/EquipmentsProduct.php(57): App\Models\ProductEquipment->fetch_data(NULL, NULL, NULL, NULL, NULL)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\EquipmentsProduct->product_filter()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EquipmentsProduct))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-29 09:07:53 --> syntax error, unexpected ',', expecting ')'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}

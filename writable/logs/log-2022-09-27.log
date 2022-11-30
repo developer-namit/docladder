@@ -1,0 +1,182 @@
+CRITICAL - 2022-09-27 08:22:05 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/hospital-infrastructure-quality.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:22:15 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/hospital-infrastructure-quality.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:22:16 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/14.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:22:26 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/hospital-infrastructure-quality.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:22:42 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/3.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:22:42 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/13.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:22:43 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/14.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:22:43 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/hospital-infrastructure-quality.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:22:59 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/3.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:23:00 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/13.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:23:00 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/14.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:23:01 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/hospital-infrastructure-quality.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:23:20 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/hospital-infrastructure-quality.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:26:49 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/12.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:26:50 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/3.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:26:52 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:26:52 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/spaceimages/hospital-infrastructure-quality.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:33:50 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/SpaceAddImg/12.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:33:52 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/SpaceAddImg/3.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:33:52 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/SpaceAddImg/2.png): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-09-27 08:33:53 --> unlink(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/public/uploads/SpaceAddImg/hospital-infrastructure-quality.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/no...', '/home/nocjadpy6...', 261, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/ManageSpace.php(261): unlink('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\ManageSpace->removeimg()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ManageSpace))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-09-27 14:24:08 --> Table 'nocjadpy_docladder.manage_subuser' doesn't exist
+CRITICAL - 2022-09-27 14:24:08 --> Table 'nocjadpy_docladder.manage_subuser' doesn't exist
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('DELETE FROM `ma...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ma...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ma...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(2213): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ma...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterProfile.php(279): CodeIgniter\BaseModel->delete()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterProfile->DeleteManagedata()
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterProfile))
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

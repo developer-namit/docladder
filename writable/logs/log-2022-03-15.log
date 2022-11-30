@@ -1,0 +1,217 @@
+ERROR - 2022-03-15 00:54:05 --> Table 'jattmatrimony.uploadfile' doesn't exist
+CRITICAL - 2022-03-15 00:54:05 --> Table 'jattmatrimony.uploadfile' doesn't exist
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(12): CodeIgniter\Model->__call('get', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-03-15 00:55:16 --> Table 'jattmatrimony.uploadfile' doesn't exist
+CRITICAL - 2022-03-15 00:55:16 --> Table 'jattmatrimony.uploadfile' doesn't exist
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(12): CodeIgniter\Model->__call('get', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-03-15 00:57:08 --> fopen(/home/nocjadpy678c/public_html/tryyourwork.com/projects/public\documents\resume.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/home/noc...', '/home/nocjadpy6...', 28, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(28): fopen('/home/nocjadpy6...', 'r')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 00:57:44 --> fopen(/home/nocjadpy678c/public_html/tryyourwork.com/projects/public\documents\resume.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/home/noc...', '/home/nocjadpy6...', 28, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(28): fopen('/home/nocjadpy6...', 'r')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 00:59:42 --> Use of undefined constant BASE_URL - assumed 'BASE_URL' (this will throw an Error in a future version of PHP)
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home/nocjadpy6...', 20, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-15 01:00:01 --> fopen(/home/nocjadpy678c/public_html/tryyourwork.com/projects/public\documents\resume.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/home/noc...', '/home/nocjadpy6...', 28, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(28): fopen('/home/nocjadpy6...', 'r')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:00:42 --> fopen(/home/nocjadpy678c/public_html/tryyourwork.com/projects/public\documents\resume.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/home/noc...', '/home/nocjadpy6...', 28, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(28): fopen('/home/nocjadpy6...', 'r')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:00:46 --> fopen(/home/nocjadpy678c/public_html/tryyourwork.com/projects/public\documents\resume.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/home/noc...', '/home/nocjadpy6...', 28, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(28): fopen('/home/nocjadpy6...', 'r')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:01:19 --> fopen(/home/nocjadpy678c/public_html/tryyourwork.com/projects/public\documents\resume.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/home/noc...', '/home/nocjadpy6...', 29, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(29): fopen('/home/nocjadpy6...', 'r')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:01:51 --> fopen(http://tryyourwork.com/jattmatrimonypublic/documents/resume.doc): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://tr...', '/home/nocjadpy6...', 29, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(29): fopen('http://tryyourw...', 'r')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:02:23 --> fopen(http://tryyourwork.com/jattmatrimony/public/documents/resume.doc): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://tr...', '/home/nocjadpy6...', 29, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(29): fopen('http://tryyourw...', 'r')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:13:21 --> fopen(http://tryyourwork.com/jattmatrimony/public/documents/resume.doc): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://tr...', '/home/nocjadpy6...', 29, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(29): fopen('http://tryyourw...', 'r')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:13:54 --> fopen(http://tryyourwork.com/jattmatrimony/public/documents/resume.doc): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://tr...', '/home/nocjadpy6...', 29, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(29): fopen('http://tryyourw...', 'r')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:14:31 --> fopen(http://tryyourwork.com/jattmatrimony/public/documents/resume.doc): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://tr...', '/home/nocjadpy6...', 29, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(29): fopen('http://tryyourw...', 'r')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:15:23 --> fopen(http://tryyourwork.com/jattmatrimony/public/documents/resume.doc): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://tr...', '/home/nocjadpy6...', 29, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(29): fopen('http://tryyourw...', 'r')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:15:47 --> fopen(http://tryyourwork.com/jattmatrimony/public/documents/resume.doc): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://tr...', '/home/nocjadpy6...', 29, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(29): fopen('http://tryyourw...', 'r')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:18:10 --> Undefined variable: mobile_number
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(263): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 263, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-15 01:18:56 --> Undefined index: extension
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/nocjadpy6...', 23, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-15 01:19:53 --> require(/home/nocjadpy678c/public_html/tryyourwork.com/projects/\App\Libraries\vendor/autoload.php): failed to open stream: No such file or directory
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(/home/n...', '/home/nocjadpy6...', 161, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(161): require()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:21:33 --> require(/home/nocjadpy678c/public_html/tryyourwork.com/projects/App/Libraries/vendor/autoload.php): failed to open stream: No such file or directory
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(/home/n...', '/home/nocjadpy6...', 161, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(161): require()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:22:27 --> require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(161): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(): http...', '/home/nocjadpy6...', 161, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/Home.php(161): require()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 01:26:37 --> App\Controllers\Home::index(): Failed opening required '/home/nocjadpy678c/public_html/tryyourwork.com/projects/app/App/Libraries/vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-15 02:39:30 --> require(/home/nocjadpy678c/public_html/tryyourwork.com/projects/ThirdParty/PHP/WhatsappAPI.php): failed to open stream: No such file or directory
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/WhatsApp.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(/home/n...', '/home/nocjadpy6...', 10, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/WhatsApp.php(10): require()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 02:40:01 --> require(/home/nocjadpy678c/public_html/tryyourwork.com/projects/ThirdParty/PHP/WhatsappAPI.php): failed to open stream: No such file or directory
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/WhatsApp.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(/home/n...', '/home/nocjadpy6...', 10, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/WhatsApp.php(10): require()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 02:40:08 --> require(/home/nocjadpy678c/public_html/tryyourwork.com/projects/ThirdParty/PHP/WhatsappAPI.php): failed to open stream: No such file or directory
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/WhatsApp.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(/home/n...', '/home/nocjadpy6...', 10, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/WhatsApp.php(10): require()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-15 02:41:58 --> require(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/WhatsApp.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(): http...', '/home/nocjadpy6...', 10, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/projects/app/Controllers/WhatsApp.php(10): require()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/projects/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/projects/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

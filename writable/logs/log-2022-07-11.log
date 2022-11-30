@@ -1,0 +1,112 @@
+CRITICAL - 2022-07-11 00:43:35 --> Undefined variable: pager
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/edit-profile.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 197, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('edit-profile', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterProfile.php(19): view('edit-profile', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterProfile->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterProfile))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-11 02:18:02 --> Column 'first_name' cannot be null
+CRITICAL - 2022-07-11 02:18:02 --> Column 'first_name' cannot be null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterProfile.php(132): CodeIgniter\Model->insert(Array)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterProfile->ManageUsers()
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterProfile))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-11 02:19:14 --> Column 'first_name' cannot be null
+CRITICAL - 2022-07-11 02:19:14 --> Column 'first_name' cannot be null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterProfile.php(133): CodeIgniter\Model->insert(Array)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterProfile->ManageUsers()
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterProfile))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-11 02:30:50 --> Unknown column 'session_id' in 'where clause'
+CRITICAL - 2022-07-11 02:30:50 --> Unknown column 'session_id' in 'where clause'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterProfile.php(23): CodeIgniter\Model->__call('get', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterProfile->index()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterProfile))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-07-11 02:31:36 --> Undefined variable: job
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/edit-profile.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 163, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('edit-profile', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterProfile.php(24): view('edit-profile', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterProfile->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterProfile))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-11 04:46:58 --> Undefined variable: currentTime
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterProfile.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 180, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterProfile->UpdateManageUsers()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterProfile))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-11 04:47:43 --> There is no data to update.
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterProfile.php(186): CodeIgniter\Model->update(Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterProfile->UpdateManageUsers()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterProfile))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-07-11 06:47:29 --> Column 'services_allocated' cannot be null
+CRITICAL - 2022-07-11 06:47:29 --> Column 'services_allocated' cannot be null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterProfile.php(143): CodeIgniter\Model->insert(Array)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterProfile->ManageUsers()
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterProfile))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-07-11 06:54:02 --> Column 'service_resume' cannot be null
+CRITICAL - 2022-07-11 06:54:02 --> Column 'service_resume' cannot be null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `ma...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ma...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ma...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ma...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterProfile.php(146): CodeIgniter\Model->insert(Array)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterProfile->ManageUsers()
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterProfile))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

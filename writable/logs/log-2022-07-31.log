@@ -1,0 +1,9 @@
+CRITICAL - 2022-07-31 23:30:55 --> Undefined variable: totalTime
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 40, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Debug/Toolbar.php(497): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Debug/Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

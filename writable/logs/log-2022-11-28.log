@@ -1,0 +1,89 @@
+CRITICAL - 2022-11-28 04:09:40 --> Undefined index: skills
+#0 C:\xampp\htdocs\docladder\app\Controllers\Admin\JobseekerController.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\JobseekerController->index()
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JobseekerController))
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-11-28 22:58:36 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-11-28 22:58:36 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\docladder\app\Controllers\JobseekerRegister.php(607): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\JobseekerRegister->addVisitorList()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerRegister))
+#7 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-28 22:58:56 --> Unknown column 'emailid' in 'where clause'
+CRITICAL - 2022-11-28 22:58:56 --> Unknown column 'emailid' in 'where clause'
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\docladder\app\Controllers\JobseekerRegister.php(607): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\JobseekerRegister->addVisitorList()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerRegister))
+#7 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-28 23:00:42 --> Unknown column 'emailid' in 'where clause'
+CRITICAL - 2022-11-28 23:00:42 --> Unknown column 'emailid' in 'where clause'
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\docladder\app\Controllers\JobseekerRegister.php(608): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\JobseekerRegister->addVisitorList()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerRegister))
+#7 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-28 23:01:07 --> Unknown column 'contactno' in 'where clause'
+CRITICAL - 2022-11-28 23:01:07 --> Unknown column 'contactno' in 'where clause'
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\docladder\app\Controllers\JobseekerRegister.php(608): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\JobseekerRegister->addVisitorList()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerRegister))
+#7 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-28 23:24:44 --> Column 'phone' cannot be null
+CRITICAL - 2022-11-28 23:24:44 --> Column 'phone' cannot be null
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `vi...', 0)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `vi...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `vi...')
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `vi...', Array, false)
+#4 C:\xampp\htdocs\docladder\app\Controllers\JobseekerRegister.php(619): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\JobseekerRegister->addVisitorList()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerRegister))
+#7 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-28 23:53:53 --> Undefined index: first_name
+#0 C:\xampp\htdocs\docladder\app\Views\admin\jobseeker\visitor_list.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/jobseeker...', Array, true)
+#4 C:\xampp\htdocs\docladder\app\Controllers\Admin\JobseekerController.php(1224): view('admin/jobseeker...', Array)
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\JobseekerController->visitor_list()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JobseekerController))
+#7 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-28 23:55:48 --> Undefined index: first_name
+#0 C:\xampp\htdocs\docladder\app\Views\admin\jobseeker\visitor_list.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/jobseeker...', Array, true)
+#4 C:\xampp\htdocs\docladder\app\Controllers\Admin\JobseekerController.php(1225): view('admin/jobseeker...', Array)
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\JobseekerController->visitor_list()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JobseekerController))
+#7 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

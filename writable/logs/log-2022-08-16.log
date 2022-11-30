@@ -1,0 +1,215 @@
+CRITICAL - 2022-08-16 00:09:39 --> Class 'App\Controllers\TransactionModel' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-16 00:10:08 --> Undefined variable: transaction
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 23, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-16 00:50:38 --> Undefined index: freaturedjobs
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/nocjadpy6...', 39, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Home->index()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-16 05:38:03 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 05:38:03 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('15', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-16 05:38:04 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 05:38:04 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('15', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-16 05:38:05 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 05:38:05 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('15', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-16 05:39:19 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 05:39:19 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('15', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-16 06:29:05 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 06:29:05 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('15', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-16 06:30:43 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 06:30:43 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('15', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-16 06:32:30 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 06:32:30 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('5', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-16 06:34:56 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 06:34:56 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('15', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-16 06:38:56 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 06:38:56 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('15', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-16 06:39:24 --> Undefined variable: response
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(304): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 304, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-08-16 06:40:50 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 06:40:50 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('12', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-16 06:43:15 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 06:43:15 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('14', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-16 06:44:12 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 06:44:12 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('4', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-16 06:46:41 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 06:46:41 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('15', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-08-16 06:49:19 --> Unknown column 'jobposting_id' in 'field list'
+CRITICAL - 2022-08-16 06:49:19 --> Unknown column 'jobposting_id' in 'field list'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('UPDATE `jobpost...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `jobpost...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `jobpost...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `jobpost...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/JobPostingModel.php(112): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobSeekerSearch.php(292): App\Models\JobPostingModel->check_Update('5', '23', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobSeekerSearch->applyJobs()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobSeekerSearch))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-16 07:08:33 --> Class 'App\Controllers\JobPostingModel' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\AjexCallback->applyJobs()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjexCallback))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

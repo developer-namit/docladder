@@ -1,0 +1,155 @@
+CRITICAL - 2022-03-11 02:13:34 --> syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('whatsapp')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('whatsapp')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-11 02:14:10 --> Undefined variable: data
+#0 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-11 02:14:18 --> Invalid file: whatsapp.php
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('whatsapp.php')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('whatsapp', Array, true)
+#2 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(9): view('whatsapp')
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-11 02:14:20 --> Invalid file: whatsapp.php
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('whatsapp.php')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('whatsapp', Array, true)
+#2 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(9): view('whatsapp')
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-11 02:15:57 --> Invalid file: whatsapp.php
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('whatsapp.php')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('whatsapp', Array, true)
+#2 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(9): view('whatsapp')
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-11 02:15:59 --> Invalid file: whatsapp.php
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('whatsapp.php')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('whatsapp', Array, true)
+#2 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(9): view('whatsapp')
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-11 02:15:59 --> Invalid file: whatsapp.php
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('whatsapp.php')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('whatsapp', Array, true)
+#2 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(9): view('whatsapp')
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-11 02:16:01 --> Invalid file: whatsapp.php
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('whatsapp.php')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('whatsapp', Array, true)
+#2 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(9): view('whatsapp')
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-11 02:17:26 --> Invalid file: whatsapp.php
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('whatsapp.php')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('whatsapp', Array, true)
+#2 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(10): view('whatsapp')
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-11 02:18:30 --> Invalid file: whatsapp.php
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('whatsapp.php')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('whatsapp', Array, true)
+#2 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(10): view('whatsapp')
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-11 02:32:55 --> file_get_contents(https://api.chat-api.com/message?token=83763g87x): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(22): file_get_contents('https://api.cha...', false, Resource id #121)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-11 02:34:41 --> file_get_contents(https://api.chat-api.com/message?token=83763g87x): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(22): file_get_contents('https://api.cha...', false, Resource id #121)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-11 02:36:28 --> file_get_contents({&quot;error&quot;:&quot;Instance not found&quot;,&quot;requestId&quot;:&quot;833da957-7042-4380-9a55-89f9353a52a7&quot;}): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(31): file_get_contents('{"error":"Insta...', false, Resource id #121)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-11 02:36:59 --> file_get_contents(https://api.chat-api.com/message?token=83763g87x): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(24): file_get_contents('https://api.cha...', false, Resource id #121)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-11 04:04:20 --> file_get_contents(https://api.whatsapp.com/send?phone=7307344456&amp;text=%how are you?): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(26): file_get_contents('https://api.wha...', false, Resource id #121)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-11 04:04:27 --> file_get_contents(https://api.whatsapp.com/send?phone=7307344456&amp;text=%how are you?): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(26): file_get_contents('https://api.wha...', false, Resource id #121)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

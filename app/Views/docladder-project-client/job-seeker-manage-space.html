@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Docladder- Job Seeker Manage Space</title>
+
+    <!-- Favicon -->
+    <link href="images/favicon.png" rel="shortcut icon" />
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
+
+    <!-- CSS Global Compulsory (Do not remove)-->
+    <link rel="stylesheet" href="css/font-awesome/all.min.css" />
+    <link rel="stylesheet" href="css/flaticon/flaticon.css" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+
+    <!-- Page CSS Implementing Plugins (Remove the plugin CSS here if site does not use that feature)-->
+    <link rel="stylesheet" href="css/select2/select2.css" />
+    <link rel="stylesheet" href="css/datetimepicker/datetimepicker.min.css" />
+    
+    <!-- Page CSS Implementing Plugins (Remove the plugin CSS here if site does not use that feature)-->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css" />
+
+    <!-- Template Style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+  </head>
+  <body>
+
+<!--=================================
+Header -->
+<header class="header header-transparent" id="job-seeker">
+  <nav class="navbar navbar-static-top navbar-expand-lg navbar-light header-sticky">
+    <div class="container-fluid">
+      <button id="nav-icon4" type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+          <span></span>
+          <span></span>
+          <span></span>
+      </button>
+      <a class="navbar-brand" href="index.html">
+        <img class="img-fluid" src="images/main-logo.png" alt="logo">
+      </a>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html" id="navbarDropdown" role="button"  aria-haspopup="true" aria-expanded="false">Home</a>
+          </li>
+          <li class="nav-item dropdown ">
+               <a class="nav-link" id="navbarDropdown" role="button" data-toggle aria-haspopup="true" aria-expanded="false" >My Profile<i class="fas fa-chevron-down fa-xs"></i></a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <li><a class="dropdown-item" href="job-seeker-profile.html">Profile</a></li>
+                   <li><a class="dropdown-item" href="job-seeker-change-password.html">Change Password</a></li>
+               </ul>
+             </li>
+          <li class="nav-item">
+            <a class="nav-link" href="community.html"  aria-haspopup="true" aria-expanded="false">Community</a>
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Postings <i class="fas fa-chevron-down fa-xs"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="javascript:void(0)">Create Postings <i class="fas fa-chevron-right fa-xs"></i></a>
+                    <ul class="dropdown-menu left-side">
+                      <li><a class="dropdown-item" href="job-seeker-equipment-form.html">Equipment Posting</a></li>
+                      <li><a class="dropdown-item" href="job-seeker-space-form.html">Space Posting</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="javascript:void(0)">Manage Postings <i class="fas fa-chevron-right fa-xs"></i></a>
+                    <ul class="dropdown-menu left-side">
+                      <li><a class="dropdown-item" href="job-seeker-manage-equipments.html">Manage Equipment</a></li>
+                      <li><a class="dropdown-item" href="job-seeker-manage-space.html">Manage Space</a></li>
+                    </ul>
+                </li>
+                  
+              </ul>
+            </li>
+          <li class="nav-item">
+               <a class="nav-link" href="premium-job-seeker-payment.html"  aria-haspopup="true" aria-expanded="false">Premium Job Seeker</a>
+          </li>
+          <li class="nav-item">
+               <a class="nav-link" href="job-seeker-search-recruiter.html"  aria-haspopup="true" aria-expanded="false">Search Recruiter</a>
+          </li>
+          
+        </ul>
+      </div>
+      <div class="add-listing">
+        <div class="login d-inline-block me-3">
+            <a data-placement="bottom" title="Username" data-toggle="tooltip">Welcome <span style="color:#443000;padding:0;">Username</span></a>
+        </div>
+        <a class="btn btn-outline btn-md logout-btn" href="job-seeker.html"><i class="fas fa-power-off"></i>Logout</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<!--=================================
+Header -->
+
+<!--=================================
+Register -->
+
+<section class="space-ptb-outer bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="user-dashboard-info-box mb-0 manage-table">
+          <div class="row mb-2 align-items-center table-desktop">
+            <div class="col-3 d-flex align-items-center">
+              <div class="form-check theme-col select-all-bg mt-2">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">Select All</label>
+              </div>
+            </div>
+            <div class="col-6 d-flex align-items-center justify-content-sm-center justify-content-end">
+              <div class="section-title mb-0">
+                <h4 class="main-site-title sub-title-bg"><span>Manage Space</span></h4>
+              </div>
+            </div>
+            <div class="col-3 mt-2">
+              <div class="delete">
+                <input type="submit" value="Delete" class="btn btn-primary del-all">
+              </div>
+            </div>
+          </div>
+          <div class="row mb-2 align-items-center table-tab">
+            <div class="row mx-auto">
+              <div class="col-6 d-flex align-items-center">
+                <div class="form-check theme-col select-all-bg mt-2">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">Select All</label>
+                </div>
+              </div>
+              <div class="col-6 mt-2">
+                <div class="delete">
+                  <input type="submit" value="Delete" class="btn btn-primary del-all">
+                </div>
+              </div>
+            </div>
+            <div class="row mx-auto">
+              <div class="col-12 d-flex align-items-center justify-content-center">
+                <div class="section-title mb-0 mt-2 mt-sm-0">
+                  <h4 class="main-site-title sub-title-bg"><span>Manage Space</span></h4>
+                </div>
+              </div>
+            </div>
+            
+            
+            
+          </div>
+          <div class="user-dashboard-table table-responsive">
+            <table class="table table-bordered">
+              <thead class="bg-light">
+                <tr >
+                  <th scope="col">Select</th>
+                   <th scope="col">Sr. No</th>
+                  <th scope="col"><i class="fas fa-pencil-alt me-1"></i>Product Name</th>
+                  <th scope="col"><i class="fas fa-rupee-sign me-1"></i>Price</th>
+                  <th scope="col"><i class="fas fa-map-marker-alt me-2"></i>Location</th>
+                  <th scope="col"><i class="far fa-calendar-alt me-2"></i>Date Posted</th>
+                  <th scope="col"><i class="fas fa-hand-point-up me-2"></i>Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                      </td>
+                      <td>1</td>
+                      <td>ABC</td>
+                      <td> 10,000</td>
+                      <td>Jalandhar, Punjab</td>
+                      <td>12-May-2022</td>
+                      <td>
+                        <ul class="list-unstyled mb-0 d-flex">
+                          <li><a data-bs-toggle="modal" data-bs-target="#ViewSpaceForm" class="text-primary"><i class="far fa-eye"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#EditJobForm" class="text-info" data-bs-toggle="tooltip" title="Edit"><i class="fas fa-pencil-alt"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#deletepopup" class="text-danger"><i class="far fa-trash-alt"></i></a></li>
+                        </ul>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                      </td>
+                      <td>2</td>
+                      <td>ABC</td>
+                      <td> 10,000</td>
+                      <td>Jalandhar, Punjab</td>
+                      <td>12-May-2022</td>
+                      <td>
+                        <ul class="list-unstyled mb-0 d-flex">
+                          <li><a data-bs-toggle="modal" data-bs-target="#ViewSpaceForm" class="text-primary"><i class="far fa-eye"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#EditJobForm" class="text-info" data-bs-toggle="tooltip" title="Edit"><i class="fas fa-pencil-alt"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#deletepopup" class="text-danger"><i class="far fa-trash-alt"></i></a></li>
+                        </ul>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                      </td>
+                      <td>3</td>
+                      <td>ABC</td>
+                      <td> 10,000</td>
+                      <td>Jalandhar, Punjab</td>
+                      <td>12-May-2022</td>
+                      <td>
+                        <ul class="list-unstyled mb-0 d-flex">
+                          <li><a data-bs-toggle="modal" data-bs-target="#ViewSpaceForm" class="text-primary"><i class="far fa-eye"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#EditJobForm" class="text-info" data-bs-toggle="tooltip" title="Edit"><i class="fas fa-pencil-alt"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#deletepopup" class="text-danger"><i class="far fa-trash-alt"></i></a></li>
+                        </ul>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                      </td>
+                      <td>4</td>
+                      <td>ABC</td>
+                      <td> 10,000</td>
+                      <td>Jalandhar, Punjab</td>
+                      <td>12-May-2022</td>
+                      <td>
+                        <ul class="list-unstyled mb-0 d-flex">
+                          <li><a data-bs-toggle="modal" data-bs-target="#ViewSpaceForm" class="text-primary"><i class="far fa-eye"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#EditJobForm" class="text-info" data-bs-toggle="tooltip" title="Edit"><i class="fas fa-pencil-alt"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#deletepopup" class="text-danger"><i class="far fa-trash-alt"></i></a></li>
+                        </ul>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                      </td>
+                      <td>5</td>
+                      <td>ABC</td>
+                      <td> 10,000</td>
+                      <td>Jalandhar, Punjab</td>
+                      <td>12-May-2022</td>
+                      <td>
+                        <ul class="list-unstyled mb-0 d-flex">
+                          <li><a data-bs-toggle="modal" data-bs-target="#ViewSpaceForm" class="text-primary"><i class="far fa-eye"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#EditJobForm" class="text-info" data-bs-toggle="tooltip" title="Edit"><i class="fas fa-pencil-alt"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#deletepopup" class="text-danger"><i class="far fa-trash-alt"></i></a></li>
+                        </ul>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                      </td>
+                      <td>6</td>
+                      <td>ABC</td>
+                      <td> 10,000</td>
+                      <td>Jalandhar, Punjab</td>
+                      <td>12-May-2022</td>
+                      <td>
+                        <ul class="list-unstyled mb-0 d-flex">
+                          <li><a data-bs-toggle="modal" data-bs-target="#ViewSpaceForm" class="text-primary"><i class="far fa-eye"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#EditJobForm" class="text-info" data-bs-toggle="tooltip" title="Edit"><i class="fas fa-pencil-alt"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#deletepopup" class="text-danger"><i class="far fa-trash-alt"></i></a></li>
+                        </ul>
+                      </td>
+                  </tr>
+                  <tr>
+                      <td>
+                          <div class="form-check">
+                              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        </div>
+                      </td>
+                      <td>7</td>
+                      <td>ABC</td>
+                      <td> 10,000</td>
+                      <td>Jalandhar, Punjab</td>
+                      <td>12-May-2022</td>
+                      <td>
+                        <ul class="list-unstyled mb-0 d-flex">
+                          <li><a data-bs-toggle="modal" data-bs-target="#ViewSpaceForm" class="text-primary"><i class="far fa-eye"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#EditJobForm" class="text-info" data-bs-toggle="tooltip" title="Edit"><i class="fas fa-pencil-alt"></i></a></li>
+                          <li><a data-bs-toggle="modal" data-bs-target="#deletepopup" class="text-danger"><i class="far fa-trash-alt"></i></a></li>
+                        </ul>
+                      </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                      </div>
+                    </td>
+                    <td>8</td>
+                    <td>ABC</td>
+                    <td> 10,000</td>
+                    <td>Jalandhar, Punjab</td>
+                    <td>12-May-2022</td>
+                    <td>
+                      <ul class="list-unstyled mb-0 d-flex">
+                        <li><a data-bs-toggle="modal" data-bs-target="#ViewSpaceForm" class="text-primary"><i class="far fa-eye"></i></a></li>
+                        <li><a data-bs-toggle="modal" data-bs-target="#EditJobForm" class="text-info" data-bs-toggle="tooltip" title="Edit"><i class="fas fa-pencil-alt"></i></a></li>
+                        <li><a data-bs-toggle="modal" data-bs-target="#deletepopup" class="text-danger"><i class="far fa-trash-alt"></i></a></li>
+                      </ul>
+                    </td>
+                </tr>
+                <tr>
+                  <td>
+                      <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    </div>
+                  </td>
+                  <td>9</td>
+                  <td>ABC</td>
+                  <td> 10,000</td>
+                  <td>Jalandhar, Punjab</td>
+                  <td>12-May-2022</td>
+                  <td>
+                    <ul class="list-unstyled mb-0 d-flex">
+                      <li><a data-bs-toggle="modal" data-bs-target="#ViewSpaceForm" class="text-primary"><i class="far fa-eye"></i></a></li>
+                      <li><a data-bs-toggle="modal" data-bs-target="#EditJobForm" class="text-info" data-bs-toggle="tooltip" title="Edit"><i class="fas fa-pencil-alt"></i></a></li>
+                      <li><a data-bs-toggle="modal" data-bs-target="#deletepopup" class="text-danger"><i class="far fa-trash-alt"></i></a></li>
+                    </ul>
+                  </td>
+              </tr>
+              <tr>
+                <td>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  </div>
+                </td>
+                <td>10</td>
+                <td>ABC</td>
+                <td> 10,000</td>
+                <td>Jalandhar, Punjab</td>
+                <td>12-May-2022</td>
+                <td>
+                  <ul class="list-unstyled mb-0 d-flex">
+                    <li><a data-bs-toggle="modal" data-bs-target="#ViewSpaceForm" class="text-primary"><i class="far fa-eye"></i></a></li>
+                    <li><a data-bs-toggle="modal" data-bs-target="#EditJobForm" class="text-info" data-bs-toggle="tooltip" title="Edit"><i class="fas fa-pencil-alt"></i></a></li>
+                    <li><a data-bs-toggle="modal" data-bs-target="#deletepopup" class="text-danger"><i class="far fa-trash-alt"></i></a></li>
+                  </ul>
+                </td>
+            </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-12 text-center">
+              <ul class="pagination mt-3">
+                <li class="page-item  me-auto">
+                  <span class="page-link b-radius-none prev-p">Prev</span>
+                </li>
+                <li class="page-item active" aria-current="page"><span class="page-link">1 </span> <span class="sr-only">(current)</span></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item ms-auto">
+                  <a class="page-link next-p" href="#">Next</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--=================================
+Register -->
+
+
+<!--=================================
+Footer-->
+<footer class="footer mt-0">
+  <div class="container">
+
+    <div class="row">
+        <div class="col-lg-8">
+          <div class="footer-logo"><a class="navbar-brand" href="index.html">
+              <img class="img-fluid" src="images/footer-logo.png" alt="logo"></a></div>
+          <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <div class="footer-link">
+                <h5>QUICK LINKS</h5>
+                <ul class="bullets">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About US</a></li>
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Feedback</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Private Policies</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="footer-link">
+                <h5>JOB SEEKER</h5>
+                <ul class="bullets">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About US</a></li>
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Feedback</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Private Policies</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+              <div class="footer-link">
+                <h5>RECRUITERS</h5>
+                <ul class="bullets">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About US</a></li>
+                  <li><a href="#">Career</a></li>
+                  <li><a href="#">Feedback</a></li>
+                  <li><a href="#">Terms & Conditions</a></li>
+                  <li><a href="#">Private Policies</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 pt-3">
+            <div class="footer-contact-info bg-holder">
+              <ul class="list-unstyled mb-0">
+                <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor cumsan lacus vel facilisis. </p></li>
+                <li><h4>DOWNLOAD APP</h4></li>
+                <li>
+                  <div class="d-block d-sm-flex mb-0 mb-lg-2 download-btns">
+                    <a class="btn btn-white btn-outline-dark btn-app mb-2 mb-sm-0 py-2 me-2" href="#">
+                      <i class="fab fa-google-play"></i>
+                      <div class="btn-text text-start">
+                        <small class="fw-normal">Get it on  </small>
+                        <span class="mb-0 d-block">Google Play</span>
+                      </div>
+                    </a>
+                    <a class="btn btn-white btn-outline-dark btn-app" href="#">
+                      <i class="fab fa-apple"></i>
+                      <div class="btn-text text-start">
+                        <small class="fw-normal">Download on the </small>
+                        <span class="mb-0 d-block">App Store</span>
+                      </div>
+                    </a>
+                  </div>
+                </li>
+                <li class="pb-1"><h4>STAY CONNECTED</h4></li>
+                <li class="social">
+                  <ul class="list-unstyled">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  </ul>
+                </li>
+              </ul>
+              
+            </div>
+          
+        </div>
+    </div>
+  </div>
+ 
+  <div class="footer-bottom border-dark-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="mb-0"> © 2022 Docladder. ALL RIGHTS RESERVED </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--=================================
+Footer-->
+
+
+<!--=================================
+Back To Top-->
+   <div id="back-to-top" class="back-to-top">
+     <i class="fas fa-angle-up"></i>
+   </div>
+<!--=================================
+Back To Top-->
+
+<!--=================================
+View Equipment Details Modal Popup -->
+<div class="modal  modal-right popup-modal show" id="ViewSpaceForm" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content recruiter-job-posting">
+      <div class="modal-title">
+          <ul class="list-unstyled">
+              <li>
+                <h2>View Details</h2>
+              </li>
+              <li>
+                 <button type="button" class="btn-close popup-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+              </li>
+          </ul>
+      </div>
+      <div class="modal-body">
+        <div class="box-header">
+          <h4>Space Information</h4>
+        </div>
+        <form class="postjob-form">
+            <div class="box">
+                <div class="box-body">
+                    <div class="row bg-white justify-content-center">
+                        <div class="form-group col-md-12 mb-3">
+                            <label>Product name</label>
+                            <input type="text" class="form-control" value="ABC" placeholder="Enter a Title">
+                        </div>
+                        <div class="form-group col-md-12 select-border mb-3">
+                          <label>Product Image </label>
+                          <div class="input-group choose-file mb-2">
+                              <input type="file" class="form-control" id="inputGroupFile02">
+                              <label class="input-group-text" for="inputGroupFile02"></label>
+                          </div>
+                          <div class="cover-photo cover-edit">
+                            <img class="img-fluid" src="images/bg/cover-bg.png" alt="">
+                            <i class="fas fa-times-circle cover-photo-icon"></i>
+                          </div>
+                        </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label>Price<em class="text-danger">*</em></label>
+                            <div class="input-group">
+                              <div class="input-group-prepend d-flex input-right-border">
+                                <div class="input-group-text"><i class="fas fa-rupee-sign"></i></div>
+                              </div>
+                              <input type="text" class="form-control" value="10000">
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label>Offer Price<em class="text-danger">*</em></label>
+                            <div class="input-group">
+                              <div class="input-group-prepend d-flex input-right-border">
+                                <div class="input-group-text"><i class="fas fa-rupee-sign"></i></div>
+                              </div>
+                              <input type="text" class="form-control" placeholder="" value="15000">
+                            </div>
+                        </div>
+                        <div class="form-group col-md-6 select-border mb-3">
+                            <label>State<em class="text-danger">*</em></label>
+                            <select class="form-control basic-select">
+                              <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                              <option value="Andhra Pradesh">Andhra Pradesh</option>
+                              <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                              <option value="Assam">Assam</option>
+                              <option value="Bihar">Bihar</option>
+                              <option value="Chandigarh">Chandigarh</option>
+                              <option value="Chhattisgarh">Chhattisgarh</option>
+                              <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                              <option value="Daman and Diu">Daman and Diu</option>
+                              <option value="Delhi">Delhi</option>
+                              <option value="Goa">Goa</option>
+                              <option value="Gujarat">Gujarat</option>
+                              <option value="Haryana">Haryana</option>
+                              <option value="Himachal Pradesh">Himachal Pradesh</option>
+                              <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                              <option value="Jharkhand">Jharkhand</option>
+                              <option value="Karnataka">Karnataka</option>
+                              <option value="Kerala">Kerala</option>
+                              <option value="Lakshadweep">Lakshadweep</option>
+                              <option value="Madhya Pradesh">Madhya Pradesh</option>
+                              <option value="Maharashtra">Maharashtra</option>
+                              <option value="Manipur">Manipur</option>
+                              <option value="Meghalaya">Meghalaya</option>
+                              <option value="Mizoram">Mizoram</option>
+                              <option value="Nagaland">Nagaland</option>
+                              <option value="Orissa">Orissa</option>
+                              <option value="Pondicherry">Pondicherry</option>
+                              <option value="Punjab" selected>Punjab</option>
+                              <option value="Rajasthan">Rajasthan</option>
+                              <option value="Sikkim">Sikkim</option>
+                              <option value="Tamil Nadu">Tamil Nadu</option>
+                              <option value="Tripura">Tripura</option>
+                              <option value="Uttaranchal">Uttaranchal</option>
+                              <option value="Uttar Pradesh">Uttar Pradesh</option>
+                              <option value="West Bengal">West Bengal</option>
+                            </select>
+                            
+                        </div>
+                        <div class="form-group col-md-6 select-border mb-3">
+                            <label>City<em class="text-danger">*</em></label>
+                            <select class="form-control basic-select">
+                                <option value="JL" selected>Jalandhar</option>
+                                <option value="AL">Alabama</option>
+                                <option value="AK">Alaska</option>
+                                <option value="AZ">Arizona</option>
+                                <option value="AR">Arkansas</option>
+                                <option value="CA">California</option>
+                                <option value="CO">Colorado</option>
+                                <option value="CT">Connecticut</option>
+                                <option value="DE">Delaware</option>
+                                <option value="DC">District Of Columbia</option>
+                                <option value="FL">Florida</option>
+                                <option value="GA">Georgia</option>
+                                <option value="HI">Hawaii</option>
+                                <option value="ID">Idaho</option>
+                                <option value="IL">Illinois</option>
+                                <option value="IN">Indiana</option>
+                                <option value="IA">Iowa</option>
+                                <option value="KS">Kansas</option>
+                                <option value="KY">Kentucky</option>
+                                <option value="LA">Louisiana</option>
+                                <option value="ME">Maine</option>
+                                <option value="MD">Maryland</option>
+                                <option value="MA">Massachusetts</option>
+                                <option value="MI">Michigan</option>
+                                <option value="MN">Minnesota</option>
+                                <option value="MS">Mississippi</option>
+                                <option value="MO">Missouri</option>
+                                <option value="MT">Montana</option>
+                                <option value="NE">Nebraska</option>
+                                <option value="NV">Nevada</option>
+                                <option value="NH">New Hampshire</option>
+                                <option value="NJ">New Jersey</option>
+                                <option value="NM">New Mexico</option>
+                                <option value="NY">New York</option>
+                                <option value="NC">North Carolina</option>
+                                <option value="ND">North Dakota</option>
+                                <option value="OH">Ohio</option>
+                                <option value="OK">Oklahoma</option>
+                                <option value="OR">Oregon</option>
+                                <option value="PA">Pennsylvania</option>
+                                <option value="RI">Rhode Island</option>
+                                <option value="SC">South Carolina</option>
+                                <option value="SD">South Dakota</option>
+                                <option value="TN">Tennessee</option>
+                                <option value="TX">Texas</option>
+                                <option value="UT">Utah</option>
+                                <option value="VT">Vermont</option>
+                                <option value="VA">Virginia</option>
+                                <option value="WA">Washington</option>
+                                <option value="WV">West Virginia</option>
+                                <option value="WI">Wisconsin</option>
+                                <option value="WY">Wyoming</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-12 mb-3">
+                            <label>Product Description<em class="text-danger">*</em></label>
+                            <textarea class="form-control" rows="2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
+                        </div>
+                        <div class="form-group col-md-12 mb-3">
+                            <label>Year of Manufacturing</label>
+                            <input type="text" class="form-control" value="2020">
+                        </div>
+                        <div class="form-group col-md-12 select-border mb-3">
+                          <label>Product Video </label>
+                          <div class="input-group choose-file mb-2">
+                              <input type="file" class="form-control" id="inputGroupFile02">
+                              <label class="input-group-text" for="inputGroupFile02"></label>
+                          </div>
+                          <div class="cover-photo cover-edit">
+                            <video poster="images/equipments-imgs/product-video-img.png" controls="" class="mt-4">
+                              <source src="images/video/equipment.mp4" type="video/mp4">
+                              <source src="images/video/equipment.mp4" type="video/ogg">
+                              Your browser does not support the video tag.
+                           </video>
+                            <i class="fas fa-times-circle cover-photo-icon"></i>
+                          </div>
+                        </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label>Area(sq. ft)</label>
+                            <input type="text" class="form-control" value="20 sq ft">
+                        </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label>Concerned Person Name</label>
+                            <input type="text" class="form-control" value="XYZ">
+                        </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label>Contact</label>
+                            <input type="tel" class="form-control" value="9874563210">
+                        </div>
+                        <div class="form-group col-md-6 mb-3">
+                            <label>E-mail address</label>
+                            <input type="email" class="form-control" value="abc@gmail.com">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--=================================
+View Equipment Details Modal Popup -->
+
+<!--=================================
+Edit Equipment Details Modal Popup -->
+<div class="modal  modal-right popup-modal show" id="EditJobForm" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content recruiter-job-posting">
+      <div class="modal-title">
+          <ul class="list-unstyled">
+              <li>
+                <h2>Edit Details</h2>
+              </li>
+              <li>
+                 <button type="button" class="btn-close popup-btn" data-bs-dismiss="modal" aria-label="Close"></button>
+              </li>
+          </ul>
+      </div>
+      <div class="modal-body">
+        <div class="box-header">
+          <h4>Space Information</h4>
+        </div>
+            <form class="postjob-form">
+              <!--general info-->
+              <div class="box">
+                
+                  <div class="box-body">
+                      <div class="row bg-white  justify-content-center">
+                          <div class="form-group col-md-12 mb-3">
+                              <label>Product name</label>
+                              <input type="text" class="form-control" value="ABC" placeholder="Enter a Title">
+                          </div>
+                          <div class="form-group col-md-12 select-border mb-3">
+                            <label>Product Image </label>
+                            <div class="input-group choose-file">
+                              <input type="file" class="form-control" id="file-upload" multiple required />
+                              <label for="file-upload" class="input-group-text" id="file-upload-filename">Choose file </label>
+                            </div>
+                          </div>
+                          <div class="form-group col-md-6 mb-3">
+                              <label>Price<em class="text-danger">*</em></label>
+                              <div class="input-group">
+                                <div class="input-group-prepend d-flex input-right-border">
+                                  <div class="input-group-text"><i class="fas fa-rupee-sign"></i></div>
+                                </div>
+                                <input type="text" class="form-control" placeholder="10000">
+                              </div>
+                          </div>
+                          <div class="form-group col-md-6 mb-3">
+                              <label>Offer Price<em class="text-danger">*</em></label>
+                              <div class="input-group">
+                                <div class="input-group-prepend d-flex input-right-border">
+                                  <div class="input-group-text"><i class="fas fa-rupee-sign"></i></div>
+                                </div>
+                                <input type="text" class="form-control" placeholder="15000">
+                              </div>
+                          </div>
+                          <div class="form-group col-md-6 select-border mb-3">
+                              <label>State<em class="text-danger">*</em></label>
+                              <select class="form-control basic-select">
+                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                <option value="Assam">Assam</option>
+                                <option value="Bihar">Bihar</option>
+                                <option value="Chandigarh">Chandigarh</option>
+                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                                <option value="Daman and Diu">Daman and Diu</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Goa">Goa</option>
+                                <option value="Gujarat">Gujarat</option>
+                                <option value="Haryana">Haryana</option>
+                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                <option value="Jharkhand">Jharkhand</option>
+                                <option value="Karnataka">Karnataka</option>
+                                <option value="Kerala">Kerala</option>
+                                <option value="Lakshadweep">Lakshadweep</option>
+                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                <option value="Maharashtra">Maharashtra</option>
+                                <option value="Manipur">Manipur</option>
+                                <option value="Meghalaya">Meghalaya</option>
+                                <option value="Mizoram">Mizoram</option>
+                                <option value="Nagaland">Nagaland</option>
+                                <option value="Orissa">Orissa</option>
+                                <option value="Pondicherry">Pondicherry</option>
+                                <option value="Punjab" selected>Punjab</option>
+                                <option value="Rajasthan">Rajasthan</option>
+                                <option value="Sikkim">Sikkim</option>
+                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                <option value="Tripura">Tripura</option>
+                                <option value="Uttaranchal">Uttaranchal</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                <option value="West Bengal">West Bengal</option>
+                              </select>
+                          </div>
+                          <div class="form-group col-md-6 select-border mb-3">
+                              <label>City<em class="text-danger">*</em></label>
+                              <select class="form-control basic-select">
+                                  <option value="JL"selected>Jalandhar</option>
+                                  <option value="AL">Alabama</option>
+                                  <option value="AK">Alaska</option>
+                                  <option value="AZ">Arizona</option>
+                                  <option value="AR">Arkansas</option>
+                                  <option value="CA">California</option>
+                                  <option value="CO">Colorado</option>
+                                  <option value="CT">Connecticut</option>
+                                  <option value="DE">Delaware</option>
+                                  <option value="DC">District Of Columbia</option>
+                                  <option value="FL">Florida</option>
+                                  <option value="GA">Georgia</option>
+                                  <option value="HI">Hawaii</option>
+                                  <option value="ID">Idaho</option>
+                                  <option value="IL">Illinois</option>
+                                  <option value="IN">Indiana</option>
+                                  <option value="IA">Iowa</option>
+                                  <option value="KS">Kansas</option>
+                                  <option value="KY">Kentucky</option>
+                                  <option value="LA">Louisiana</option>
+                                  <option value="ME">Maine</option>
+                                  <option value="MD">Maryland</option>
+                                  <option value="MA">Massachusetts</option>
+                                  <option value="MI">Michigan</option>
+                                  <option value="MN">Minnesota</option>
+                                  <option value="MS">Mississippi</option>
+                                  <option value="MO">Missouri</option>
+                                  <option value="MT">Montana</option>
+                                  <option value="NE">Nebraska</option>
+                                  <option value="NV">Nevada</option>
+                                  <option value="NH">New Hampshire</option>
+                                  <option value="NJ">New Jersey</option>
+                                  <option value="NM">New Mexico</option>
+                                  <option value="NY">New York</option>
+                                  <option value="NC">North Carolina</option>
+                                  <option value="ND">North Dakota</option>
+                                  <option value="OH">Ohio</option>
+                                  <option value="OK">Oklahoma</option>
+                                  <option value="OR">Oregon</option>
+                                  <option value="PA">Pennsylvania</option>
+                                  <option value="RI">Rhode Island</option>
+                                  <option value="SC">South Carolina</option>
+                                  <option value="SD">South Dakota</option>
+                                  <option value="TN">Tennessee</option>
+                                  <option value="TX">Texas</option>
+                                  <option value="UT">Utah</option>
+                                  <option value="VT">Vermont</option>
+                                  <option value="VA">Virginia</option>
+                                  <option value="WA">Washington</option>
+                                  <option value="WV">West Virginia</option>
+                                  <option value="WI">Wisconsin</option>
+                                  <option value="WY">Wyoming</option>
+                              </select>
+                              
+                              
+                          </div>
+                          <div class="form-group col-md-12 mb-3">
+                              <label>Product Description<em class="text-danger">*</em></label>
+                              <textarea class="form-control" rows="2" maxlength="2000">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea>
+                          </div>
+                          <div class="form-group col-md-12 mb-3">
+                              <label>Year of Manufacturing</label>
+                              <input type="text" class="form-control" value="2021">
+                          </div>
+                          <div class="form-group col-md-12 select-border mb-3">
+                            <label>Product Video </label>
+                            <div class="input-group choose-file">
+                              <input type="file" class="form-control" id="file-upload-video" multiple required />
+                              <label for="file-upload-video" class="input-group-text" id="file-upload-filename-video">Choose file </label>
+                        
+                            </div>
+                          </div>
+                          <div class="form-group col-md-6 mb-3">
+                              <label>Area(sq. ft)</label>
+                              <input type="text" class="form-control" value="20 sq ft">
+                          </div>
+                          <div class="form-group col-md-6 mb-3">
+                              <label>Concerned Person Name</label>
+                              <input type="text" class="form-control" value="XYZ">
+                          </div>
+                          <div class="form-group col-md-6 mb-3">
+                              <label>Contact</label>
+                              <input type="tel" class="form-control" value="9874563210">
+                          </div>
+                          <div class="form-group col-md-6 mb-3">
+                              <label>E-mail address</label>
+                              <input type="email" class="form-control" value="abc@gmail.com">
+                          </div>
+                          <div class="text-center">
+                              <div class="form-group col-md-12 mt-3 mb-3">
+                                  <input class="btn btn-secondary main-btn" type="button" value="Submit">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--=================================
+Edit Equipment Details Modal Popup -->
+
+<!--=================================
+Delete Modal Popup -->
+<div class="modal  modal-right popup-modal show" id="deletepopup" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body ">
+            <div class="delete-btn">
+                <h2>Really want to Delete ?</h2>
+                <ul class="list-unstyled">
+                     <li>
+                         <input class="btn btn-secondary" type="button" value="Delete">
+                     <!--<button type="button" class="btn btn-danger">Delete</button>-->
+                     </li>
+                     <li>
+                         <input class="btn btn-primary-dark" type="button" value="Cancel" data-bs-dismiss="modal" aria-label="Close">
+                         <!--<button type="button"  data-bs-dismiss="modal" aria-label="Close">Cancel</button>-->
+                    </li>
+                </ul>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--=================================
+Delete Modal Popup Modal Popup -->
+
+
+<!--=================================
+Javascript -->
+
+    <!-- JS Global Compulsory (Do not remove)-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper/popper.min.js"></script>
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    
+    <!-- Page JS Implementing Plugins (Remove the plugin script here if site does not use that feature)-->
+    <script src="js/owl-carousel/owl-carousel.min.js"></script>
+
+    <!-- Page JS Implementing Plugins (Remove the plugin script here if site does not use that feature)-->
+    <script src="js/select2/select2.full.js"></script>
+    <script src="js/datetimepicker/moment.min.js"></script>
+    <script src="js/datetimepicker/datetimepicker.min.js"></script>
+
+    <!-- Template Scripts (Do not remove)-->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,788 @@
+CRITICAL - 2022-10-26 00:22:23 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recr...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(110): spl_autoload_call('App\\Models\\Recr...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 00:23:00 --> Undefined variable: db
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 56, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(125): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 00:23:33 --> Undefined variable: jobposting
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 61, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(126): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 01:44:36 --> Trying to access array offset on value of type null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(148): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', '/home/nocjadpy6...', 148, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-26 01:52:53 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', '/home/nocjadpy6...', 74, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(74): implode(',', 'Ambala')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(140): App\Models\RecruiterSearchModel->fetch_data(Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 01:54:21 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', '/home/nocjadpy6...', 76, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(76): implode(',', 'Ambala')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(142): App\Models\RecruiterSearchModel->fetch_data(Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 01:56:04 --> Array to string conversion
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(81): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/nocjadpy6...', 81, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(142): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 01:57:07 --> [] operator not supported for strings
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(142): App\Models\RecruiterSearchModel->fetch_data(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 01:58:34 --> Array to string conversion
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/nocjadpy6...', 74, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(139): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-10-26 02:33:16 --> Column 'session_id' cannot be null
+CRITICAL - 2022-10-26 02:33:16 --> Column 'session_id' cannot be null
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(113): CodeIgniter\Model->insert(Array)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-10-26 02:33:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-10-26 02:33:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(67): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-26 02:34:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-10-26 02:34:16 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(67): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-26 02:34:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-10-26 02:34:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(67): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-26 02:35:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+CRITICAL - 2022-10-26 02:35:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(67): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-26 02:39:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORcity  LIKE('%Bhiwani%') ORcity  LIKE('%Faridabad%') ORcity  LIKE('%Fatehabad%'' at line 1
+CRITICAL - 2022-10-26 02:39:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORcity  LIKE('%Bhiwani%') ORcity  LIKE('%Faridabad%') ORcity  LIKE('%Fatehabad%'' at line 1
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(66): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-26 03:07:38 --> substr() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'substr() expect...', '/home/nocjadpy6...', 43, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(43): substr('city  LIKE('%Am...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(68): App\Models\RecruiterSearchModel->fetch_data(Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 03:09:43 --> Undefined variable: asd
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 43, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(69): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 03:14:30 --> substr() expects parameter 2 to be int, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'substr() expect...', '/home/nocjadpy6...', 43, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(43): substr('city  LIKE('%Am...', '', -1)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(66): App\Models\RecruiterSearchModel->fetch_data(Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 03:15:34 --> rtrim() expects at most 2 parameters, 3 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'rtrim() expects...', '/home/nocjadpy6...', 43, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(43): rtrim('city  LIKE('%Am...', 0, -1)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(66): App\Models\RecruiterSearchModel->fetch_data(Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 03:16:15 --> substr_replace() expects at least 3 parameters, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'substr_replace(...', '/home/nocjadpy6...', 43, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(43): substr_replace('city  LIKE('%Am...', -1)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(66): App\Models\RecruiterSearchModel->fetch_data(Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 03:16:46 --> syntax error, unexpected '"', expecting ')'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recr...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(110): spl_autoload_call('App\\Models\\Recr...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 03:17:02 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recr...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(110): spl_autoload_call('App\\Models\\Recr...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 03:17:33 --> substr_replace() expects at least 3 parameters, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'substr_replace(...', '/home/nocjadpy6...', 43, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(43): substr_replace('city  LIKE('%Am...', -1)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(66): App\Models\RecruiterSearchModel->fetch_data(Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 03:17:42 --> syntax error, unexpected '0' (T_LNUMBER), expecting ')'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recr...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(110): spl_autoload_call('App\\Models\\Recr...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 03:18:54 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recr...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(110): spl_autoload_call('App\\Models\\Recr...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 03:19:15 --> syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recr...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(110): spl_autoload_call('App\\Models\\Recr...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 03:34:34 --> syntax error, unexpected '0' (T_LNUMBER), expecting ')'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recr...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(110): spl_autoload_call('App\\Models\\Recr...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 03:34:51 --> A non-numeric value encountered
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/nocjadpy6...', 43, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(66): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 03:35:35 --> A non-numeric value encountered
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/nocjadpy6...', 43, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(66): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 03:35:53 --> syntax error, unexpected '0' (T_LNUMBER), expecting ')'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recr...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(110): spl_autoload_call('App\\Models\\Recr...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 03:36:26 --> str_split() expects at most 2 parameters, 3 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'str_split() exp...', '/home/nocjadpy6...', 43, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(43): str_split('city  LIKE('%Am...', 0, -1)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(66): App\Models\RecruiterSearchModel->fetch_data(Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 03:56:43 --> Undefined variable: preffer
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 46, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(70): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 04:18:48 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(47): implode(' ', 'Delhi')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(71): App\Models\RecruiterSearchModel->fetch_data(Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 50, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-10-26 06:15:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM jobseeker_register WHERE status = '0'
+    AND expected_ctc BETWEE' at line 7
+CRITICAL - 2022-10-26 06:15:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT * FROM jobseeker_register WHERE status = '0'
+    AND expected_ctc BETWEE' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(143): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-26 06:16:15 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 143
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(143): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 06:53:29 --> Invalid argument supplied for foreach()
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(136): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/nocjadpy6...', 136, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(167): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 06:53:44 --> Illegal string offset 'name'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/home/nocjadpy6...', 137, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(167): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 06:54:28 --> Illegal string offset 'name'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/home/nocjadpy6...', 137, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(167): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 06:55:55 --> Undefined variable: preffer
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 138, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(168): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 06:56:11 --> Undefined variable: preffer
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 138, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(168): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 06:56:43 --> Undefined variable: preffer
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 138, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(168): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 06:58:02 --> Undefined variable: preffer
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(140): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 140, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(170): App\Models\RecruiterSearchModel->fetch_data('Ambala Bhiwani ...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-10-26 07:11:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 7
+CRITICAL - 2022-10-26 07:11:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '10' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-26 07:11:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OFFSET 10' at line 7
+CRITICAL - 2022-10-26 07:11:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OFFSET 10' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-26 07:11:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OFFSET 10' at line 7
+CRITICAL - 2022-10-26 07:11:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OFFSET 10' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-26 07:13:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id desc  LIMIT 0, 10' at line 7
+CRITICAL - 2022-10-26 07:13:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id desc  LIMIT 0, 10' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(154): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(127): App\Models\RecruiterSearchModel->searching(10, 0, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-26 07:14:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id desc  LIMIT 0, 10' at line 7
+CRITICAL - 2022-10-26 07:14:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY id desc  LIMIT 0, 10' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(154): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(127): App\Models\RecruiterSearchModel->searching(10, 0, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-26 07:15:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10 OFFSET 0' at line 7
+CRITICAL - 2022-10-26 07:15:38 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10 OFFSET 0' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(162): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-26 07:42:00 --> Array to string conversion
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/nocjadpy6...', 109, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(160): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 07:42:14 --> Array to string conversion
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/nocjadpy6...', 129, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(160): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 07:44:41 --> Array to string conversion
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(142): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/nocjadpy6...', 142, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(160): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 07:59:32 --> Array to string conversion
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/nocjadpy6...', 152, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(169): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 09:19:37 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', '/home/nocjadpy6...', 129, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(129): implode(',', 'Ambala')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(162): App\Models\RecruiterSearchModel->fetch_data(Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 09:20:25 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/nocjadpy6...', 129, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(129): implode(',', Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(162): App\Models\RecruiterSearchModel->fetch_data(Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 09:21:48 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/nocjadpy6...', 130, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(130): implode(',', Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(163): App\Models\RecruiterSearchModel->fetch_data(Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 10:19:33 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 181
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(181): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 10:20:35 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 182
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(182): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 10:22:16 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 187
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(187): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 10:23:31 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recr...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(110): spl_autoload_call('App\\Models\\Recr...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 10:23:45 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 186
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(186): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 10:27:05 --> Undefined variable: db
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(112): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 112, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(191): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-10-26 10:27:17 --> Unknown column 'state_id.id' in 'on clause'
+CRITICAL - 2022-10-26 10:27:17 --> Unknown column 'state_id.id' in 'on clause'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(115): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(191): App\Models\RecruiterSearchModel->fetch_data(Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-26 10:27:47 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 192
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(192): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 10:31:23 --> syntax error, unexpected 'return' (T_RETURN), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recr...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(110): spl_autoload_call('App\\Models\\Recr...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 10:31:57 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 199
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(199): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 10:34:11 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 199
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(199): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 10:38:28 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 208
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(208): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 10:39:20 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 208
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(208): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 10:39:45 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 207
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(207): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 11:15:21 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 156
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(156): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 11:36:21 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 156
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(156): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 11:41:48 --> syntax error, unexpected 'location' (T_STRING)
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Recr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Recr...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(110): spl_autoload_call('App\\Models\\Recr...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-26 23:28:13 --> This authorization code has expired.
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php(228): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQDgFyXoXmC3UXZ...', 'https://tryyour...')
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterPost.php(102): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterPost->Recruiter()
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterPost))
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-26 23:43:50 --> Array to string conversion
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', '/home/nocjadpy6...', 136, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(155): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-26 23:44:04 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 156
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(156): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 23:44:19 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 156
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(156): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-26 23:46:28 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php on line 156
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(156): CodeIgniter\Database\BaseConnection->query(Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-10-26 23:57:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+CRITICAL - 2022-10-26 23:57:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(157): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-26 23:58:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+CRITICAL - 2022-10-26 23:58:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(157): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-26 23:59:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 7
+CRITICAL - 2022-10-26 23:59:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(158): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

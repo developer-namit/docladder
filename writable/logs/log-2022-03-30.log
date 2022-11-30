@@ -1,0 +1,191 @@
+CRITICAL - 2022-03-30 11:09:53 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\docladder\docladder\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\docladder\docladder\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-03-30 11:10:47 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\docladder\docladder\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\docladder\docladder\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2022-03-30 11:13:03 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\docladder\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+ERROR - 2022-03-30 05:11:41 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-03-30 05:11:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\docladder\app\Controllers\Home.php(11): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\docladder\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-30 05:11:41 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\docladder\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-03-30 05:12:00 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-03-30 05:12:00 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\docladder\app\Controllers\Home.php(11): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\docladder\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-30 05:12:00 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\docladder\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-03-30 05:14:49 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-03-30 05:14:49 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\docladder\app\Controllers\Home.php(11): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\docladder\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-30 05:14:49 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\docladder\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-03-30 05:14:51 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-03-30 05:14:51 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\docladder\app\Controllers\Home.php(11): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\docladder\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-30 05:14:51 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\docladder\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-03-30 05:14:54 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-03-30 05:14:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\docladder\app\Controllers\Home.php(11): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\docladder\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-30 05:14:54 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\docladder\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 05:17:14 --> Function zip_open() is deprecated
+#0 C:\xampp\htdocs\docladder\app\Controllers\Home.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function zip_op...', 'C:\\xampp\\htdocs...', 168)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\docladder\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-30 05:17:14 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\docladder\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-30 05:21:58 --> Function zip_open() is deprecated
+#0 C:\xampp\htdocs\docladder\app\Controllers\Home.php(168): CodeIgniter\Debug\Exceptions->errorHandler(8192, 'Function zip_op...', 'C:\\xampp\\htdocs...', 168)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\docladder\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-30 05:21:58 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\docladder\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

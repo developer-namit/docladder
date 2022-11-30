@@ -1,0 +1,1011 @@
+CRITICAL - 2022-02-23 01:35:25 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-23 01:38:46 --> Class 'App\Controllers\ZipArchive' not found
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-23 01:39:07 --> Class 'App\Controllers\ZipArchive' not found
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-23 01:39:09 --> Class 'App\Controllers\ZipArchive' not found
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-23 01:53:52 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-23 01:54:52 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-23 01:55:52 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-23 01:56:52 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-23 01:58:36 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-23 02:02:08 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-23 02:07:56 --> fopen(CV kanchan (Repaired).doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(CV kancha...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(18): fopen('CV kanchan (Rep...', 'r')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:10:28 --> syntax error, unexpected '$files' (T_VARIABLE)
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-23 02:10:43 --> require(C:\xampp\htdocs\projects\app\Controllers/relative/path/from/current/file): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\xamp...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(14): require()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:11:26 --> fopen(CV kanchan (Repaired).doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(CV kancha...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(18): fopen('CV kanchan (Rep...', 'r')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:11:28 --> fopen(CV kanchan (Repaired).doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(CV kancha...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(18): fopen('CV kanchan (Rep...', 'r')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:12:40 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-23 02:13:59 --> file_get_contents(CV kanchan (Repaired).doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(18): file_get_contents('CV kanchan (Rep...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:15:09 --> file_get_contents(CV kanchan (Repaired).doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(18): file_get_contents('CV kanchan (Rep...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:16:49 --> syntax error, unexpected ':', expecting ')'
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-23 02:19:11 --> fopen() expects parameter 1 to be a valid path, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen() expects...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(19): fopen('\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...', 'r')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:19:40 --> fopen() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen() expects...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(19): fopen('\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:19:57 --> fopen() expects parameter 1 to be a valid path, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen() expects...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(19): fopen('\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...', 'r')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:21:46 --> Undefined variable: fp
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 02:24:33 --> Class 'App\Controllers\COM' not found
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-23 02:32:21 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-23 02:33:47 --> Undefined variable: homepage
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 02:36:19 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 02:37:26 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(25): explode('\n', Array)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:37:58 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(25): explode(' ', Array)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:38:11 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(25): explode(' ', Array)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:41:44 --> Illegal string offset 'name'
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 02:46:19 --> Undefined variable: needle
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 02:49:00 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(20): preg_match('~^(.*name.*)$~', Array, NULL)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:50:12 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(20): preg_match('~^(.*email.*)$~', Array, NULL)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:54:28 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(19): explode('\n', Array)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 02:55:59 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 02:56:43 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:04:38 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:05:17 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:05:59 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:06:13 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:06:54 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(28): preg_match('/(Email)(name)(...', Array, NULL, 256)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 03:07:23 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:09:28 --> Undefined variable: geek
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:09:57 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:11:21 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:11:51 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:13:10 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:15:21 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:15:30 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:18:21 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(20): preg_match('~^(.*Email.*)$~', Array, NULL)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 03:19:14 --> syntax error, unexpected ',', expecting ')'
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-23 03:19:30 --> Use of undefined constant FILE_SKIP_EMPTY_LINE - assumed 'FILE_SKIP_EMPTY_LINE' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:21:37 --> Undefined variable: lines
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:24:02 --> Undefined index: email
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:24:49 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(28): explode('<br />', Array)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 03:30:37 --> Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:31:24 --> syntax error, unexpected '$data' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-23 03:36:53 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(30): explode(' ', Array)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 03:37:15 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(30): explode(' ', Array)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 03:37:38 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(30): explode('<br />', Array)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 03:37:40 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(30): explode('<br />', Array)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 03:39:44 --> preg_match_all() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match_all(...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(26): preg_match_all('/^.*Email.*$/m', Array, NULL)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 03:44:08 --> Call to undefined function App\Controllers\my_array_search()
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-23 03:45:28 --> Undefined variable: sb
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:47:29 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(23): explode('<section id="na...', Array)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 03:47:51 --> Call to undefined function App\Controllers\impload()
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-23 03:49:19 --> Undefined variable: name
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:49:43 --> Undefined offset: 1
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:49:46 --> Undefined offset: 1
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:50:33 --> Undefined offset: 1
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:51:11 --> Undefined offset: 1
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 03:57:33 --> Undefined offset: 2
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 04:02:19 --> Array to string conversion
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 04:02:22 --> Array to string conversion
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 04:04:45 --> Undefined variable: str
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 04:05:12 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(22): preg_match('/Email/i', Array, NULL, 256)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 04:07:23 --> preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 0
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(22): preg_match('/+91/i', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...', NULL, 256)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 04:16:40 --> Undefined variable: patternmy_email
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 04:17:03 --> Undefined variable: matches
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 04:21:32 --> file_get_contents() expects parameter 1 to be a valid path, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(20): file_get_contents('\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 05:08:53 --> Use of undefined constant email - assumed 'email' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 05:09:38 --> Use of undefined constant Email - assumed 'Email' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 05:13:30 --> Undefined variable: ab
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 05:14:51 --> preg_match_all() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match_all(...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(28): preg_match_all('/Email/i', Array, NULL, 256)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 05:15:42 --> Undefined variable: lesson_name
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 05:18:34 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(23): preg_match('~^(.*Email.*)$~', Array, NULL)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 05:19:02 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(23): preg_match('~^(.*KANCHAN.*)...', Array, NULL)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 05:19:45 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(23): preg_match('~^(.*Email.*)$~', Array, NULL)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 05:30:27 --> in_array() expects parameter 2 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(26): in_array('Email', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 05:30:57 --> in_array() expects parameter 2 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(27): in_array('Email', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 05:31:24 --> Undefined variable: people
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 05:32:18 --> Undefined variable: people
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 05:33:34 --> Undefined variable: people
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 05:37:37 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(24): explode(' ', Array)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 05:41:28 --> Undefined variable: outtext
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 05:41:58 --> Undefined variable: outtext
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 05:42:00 --> Undefined variable: outtext
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 05:42:47 --> Undefined variable: outtext
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 05:43:25 --> Undefined variable: outtext
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 05:53:57 --> is_array() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_array() expe...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(22): is_array('Email', Array)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 05:54:58 --> in_array() expects parameter 2 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(22): in_array('Email', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 05:55:00 --> in_array() expects parameter 2 to be array, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(22): in_array('Email', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-23 06:04:35 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-02-23 23:07:29 --> Array to string conversion
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:12:40 --> Class 'App\Controllers\DateTime' not found
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-02-23 23:19:02 --> Undefined offset: 1
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:20:37 --> Undefined variable: number
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:20:52 --> Undefined variable: result
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:21:43 --> Undefined variable: result
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:21:46 --> Undefined variable: result
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:21:54 --> Undefined variable: result
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:22:59 --> Undefined variable: result
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:23:16 --> Undefined variable: result
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:23:18 --> Undefined variable: result
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:24:25 --> Undefined variable: result
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:24:29 --> Undefined variable: result
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:25:05 --> Undefined variable: result2
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:26:09 --> Undefined variable: result
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:27:12 --> Undefined variable: val
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:27:25 --> Array to string conversion
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:28:43 --> Array to string conversion
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:29:34 --> Undefined variable: result
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:34:26 --> Undefined variable: result
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-23 23:49:08 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

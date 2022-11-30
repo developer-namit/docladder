@@ -1,0 +1,751 @@
+CRITICAL - 2022-03-04 00:03:32 --> There is no data to insert.
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\projects\app\Controllers\Home.php(118): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->fileupload()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-04 00:04:23 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\HimanshuKumar[2_6].docx): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:05:18 --> Undefined variable: address
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(98): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 00:18:22 --> Call to undefined function App\Controllers\move()
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->fileupload()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 00:19:37 --> Undefined variable: file
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->fileupload()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 00:21:07 --> Undefined variable: file
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 114, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->fileupload()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 00:25:42 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\SukhdeepSingh[1_3]_2.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:25:51 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\SukhdeepSingh[1_3]_2.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:27:14 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\SukhdeepSingh[1_3]_2.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:28:36 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\SukhdeepSingh[1_3]_2.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:28:55 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\SukhdeepSingh[1_3]_2.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:29:05 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\SukhdeepSingh[1_3]_2.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:30:50 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\shilpa.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:32:34 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\SukhdeepSingh[1_3].doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:33:48 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\SukhdeepSingh[1_3].doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:34:21 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\SukhdeepSingh[1_3].doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:35:32 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\VarinderKaur[1_6].doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:37:06 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\VarinderKaur[1_6].doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:37:43 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\VarinderKaur[1_6].doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:38:18 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\VarinderKaur[1_6].doc): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:40:35 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\VarinderKaur[1_6].doc): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:41:05 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\xampp\\htdocs...', 171, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(171): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\app\Controllers\Home.php(114): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->fileupload()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-04 00:42:37 --> mkdir(): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): No suc...', 'C:\\xampp\\htdocs...', 171, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(171): mkdir('C:\\xampp\\htdocs...', 511, true)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\projects\app\Controllers\Home.php(114): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->fileupload()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-04 00:43:15 --> The uploaded file has already been moved.
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(116): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploa...', 'SukhdeepSingh[1...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->fileupload()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:44:48 --> The uploaded file has already been moved.
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(116): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploa...', 'SukhdeepSingh[1...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->fileupload()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:44:50 --> Undefined variable: content
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 00:44:55 --> Undefined variable: content
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 00:45:43 --> The uploaded file has already been moved.
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(118): CodeIgniter\HTTP\Files\UploadedFile->move('../public/uploa...', 'shilpa.doc')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->fileupload()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:46:48 --> The uploaded file has already been moved.
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(118): CodeIgniter\HTTP\Files\UploadedFile->move('public/uploads/', 'shilpa.doc')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->fileupload()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:46:58 --> The uploaded file has already been moved.
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(118): CodeIgniter\HTTP\Files\UploadedFile->move('public/uploads/', 'SukhdeepSingh[1...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->fileupload()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:47:54 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\SukhdeepSingh[1_3].doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:48:01 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\SukhdeepSingh[1_3].doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:48:27 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\SukhdeepSingh[1_3]_1.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:49:24 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\VarinderKaur[1_6].doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:50:25 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\HimanshuKumar[2_6].docx): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 00:51:39 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\shilpa.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 01:38:28 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(42): implode('', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 01:38:42 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(42): implode(' ', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 01:47:41 --> file_get_contents() expects parameter 1 to be a valid path, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(39): file_get_contents('\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 02:21:25 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(39): implode('\r\n', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 02:22:12 --> Undefined variable: term
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 02:22:37 --> Undefined variable: term
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 02:28:12 --> curl_setopt(): Curl option contains invalid characters (\0)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'curl_setopt(): ...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(41): curl_setopt(Resource id #156, 10002, '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 02:28:47 --> Undefined variable: term
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 02:40:52 --> fopen() expects parameter 1 to be a valid path, string given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen() expects...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(40): fopen('\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...', 'r')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 02:41:09 --> fopen() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen() expects...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(40): fopen('\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 02:43:44 --> Call to undefined function App\Controllers\read_file_docx()
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 02:44:15 --> Undefined variable: contents
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 02:45:36 --> mime_content_type(): Invalid path
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(41): mime_content_type('\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 02:45:55 --> mime_content_type(shilpa_2.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mime_content_ty...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(41): mime_content_type('shilpa_2.doc')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 03:35:15 --> Call to a member function replaceBlock() on string
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:42:07 --> Call to undefined function App\Controllers\expload()
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:43:18 --> Undefined variable: content
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 03:43:37 --> Object of class App\Models\FileModel could not be converted to string
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:44:05 --> Object of class App\Models\FileModel could not be converted to string
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:44:58 --> Object of class App\Models\FileModel could not be converted to string
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:45:08 --> Object of class App\Models\FileModel could not be converted to string
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:45:54 --> Object of class App\Models\FileModel could not be converted to string
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:46:57 --> Object of class App\Models\FileModel could not be converted to string
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:47:27 --> Undefined variable: content
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 03:47:39 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\resume.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(33): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 03:48:19 --> file_get_contents(C:\xampp\htdocs\projects\public\uploads\resume.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(33): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 03:48:50 --> Object of class App\Models\FileModel could not be converted to string
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 03:49:23 --> file_get_contents(C:\xampp\htdocs\projects\public\documents\): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 04:53:13 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(43): implode('', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 04:53:47 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(41): implode('', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 04:53:56 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(41): implode(' ', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 04:56:40 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(44): implode(' ', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 04:57:35 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(45): implode(' ', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 04:57:37 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(45): implode(' ', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 04:58:07 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(45): implode(' ', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 05:00:24 --> Call to undefined function App\Controllers\REGEXP_REPLACE()
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-04 05:37:10 --> preg_match(): Delimiter must not be alphanumeric or backslash
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): D...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(55): preg_match('0', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...', NULL)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 05:38:30 --> preg_match(): Unknown modifier '#'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): U...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(45): preg_match('/^\\s*(?:\\+?(\\d{...', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...', NULL)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 05:44:22 --> preg_match(): No ending delimiter '^' found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): N...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(45): preg_match('^(\\+91[\\-\\s]?)?...', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...', NULL)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 06:12:49 --> file_get_contents(C:\xampp\htdocs\projects\public\documents\shilpa_2.doc): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(32): file_get_contents('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 06:44:34 --> There is no data to insert.
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\BaseModel.php(704): CodeIgniter\BaseModel->transformDataToArray(Array, 'insert')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\projects\app\Controllers\Home.php(123): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->fileupload()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-04 06:49:19 --> Undefined variable: address
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 06:50:24 --> Undefined variable: address
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 06:50:54 --> Undefined variable: address
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 06:51:13 --> Undefined variable: address
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 06:51:39 --> Undefined variable: address
+#0 C:\xampp\htdocs\projects\app\Controllers\Home.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-04 06:55:25 --> preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 73
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(74): preg_match('/(#\\.?\\s\\w*|H.N...', '\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...', NULL)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 07:03:19 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-04 07:05:53 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-04 07:06:40 --> shell_exec(): NULL byte detected. Possible attack
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'shell_exec(): N...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(40): shell_exec('\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 07:06:42 --> shell_exec(): NULL byte detected. Possible attack
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'shell_exec(): N...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\Home.php(40): shell_exec('\xD0\xCF\x11\xE0\xA1\xB1\x1A\xE1\x00\x00\x00\x00\x00\x00\x00...')
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-04 07:21:51 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-04 07:24:53 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-04 07:27:13 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-04 07:29:11 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

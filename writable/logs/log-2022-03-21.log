@@ -1,0 +1,1151 @@
+CRITICAL - 2022-03-21 00:06:43 --> Undefined variable: fb_login_url
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(46): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 00:09:07 --> Undefined variable: fb_login_url
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(46): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 00:22:23 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '9532492d061003d...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 00:22:27 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '9532492d061003d...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 00:22:41 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '9532492d061003d...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 00:23:28 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '9532492d061003d...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 00:34:27 --> Undefined variable: fb_login_url
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(46): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 00:48:06 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '9532492d061003d...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 00:51:57 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '9532492d061003d...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 00:53:03 --> Undefined variable: fb_login_url
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(46): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 01:03:48 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '9532492d061003d...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 01:09:47 --> Undefined variable: fb_login_url
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(46): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 01:38:23 --> Undefined variable: fb_login_url
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(46): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 01:40:37 --> Undefined variable: fb_login_url
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(46): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 01:41:06 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '9532492d061003d...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 01:41:17 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '9532492d061003d...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 01:45:27 --> Undefined variable: request
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-21 01:45:51 --> implode(): Invalid arguments passed
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'implode(): Inva...', '/home/nocjadpy6...', 71, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(71): implode('', Object(__PHP_Incomplete_Class))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 01:46:55 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha512', Object(__PHP_Incomplete_Class), '9532492d061003d...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 01:48:04 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '9532492d061003d...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 01:48:09 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '9532492d061003d...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('9532492d061003d...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 02:18:14 --> Undefined variable: fb_login_url
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(46): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 02:24:54 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 02:25:04 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 02:28:38 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(30): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 02:29:14 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(31): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 02:32:16 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(32): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 02:34:08 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(32): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 02:40:34 --> Call to undefined method Facebook\Facebook::api()
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 02:42:06 --> Undefined index: email
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php(201): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/nocjadpy6...', 201, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(42): Facebook\GraphNodes\Collection->offsetGet('email')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-21 02:42:59 --> You must provide an access token.
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(201): Facebook\FacebookRequest->validateAccessToken()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me', Array, NULL, NULL, 'v2.10')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(33): Facebook\Facebook->get('/me')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 02:43:41 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(33): Facebook\Facebook->get('/me', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 02:44:19 --> Undefined variable: fb_login_url
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(52): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 02:48:40 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(33): Facebook\Facebook->get('/me', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 02:58:42 --> Undefined variable: fb_login_url
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(52): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 03:01:06 --> Undefined variable: fb_login_url
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(52): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 03:01:32 --> Undefined variable: fb_login_url
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(52): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 03:10:56 --> Undefined variable: facebook_login_type
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 25, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-21 03:16:02 --> Call to undefined method Facebook\Facebook::facebook_login_type()
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 03:16:17 --> syntax error, unexpected 'case' (T_CASE)
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 03:16:36 --> Undefined property: Facebook\Facebook::$facebook_login_type
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home/nocjadpy6...', 24, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-21 03:37:17 --> Undefined variable: fb_login_url
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 47, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(53): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 03:42:57 --> Undefined variable: fdata
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 45, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-21 03:44:13 --> Undefined variable: fdata
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 45, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-21 03:45:16 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(34): Facebook\Facebook->get('/me', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 03:48:16 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(34): Facebook\Facebook->get('/me', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 03:48:48 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(34): Facebook\Facebook->get('/me', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 03:57:38 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(34): Facebook\Facebook->get('/me', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 04:02:33 --> Undefined index: email
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/GraphNodes/Collection.php(201): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/nocjadpy6...', 201, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(42): Facebook\GraphNodes\Collection->offsetGet('email')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-21 04:02:51 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(34): Facebook\Facebook->get('/me', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 04:07:18 --> syntax error, unexpected ')'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 04:07:29 --> Undefined index: email
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home/nocjadpy6...', 63, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->profile()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-21 04:08:56 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 04:10:05 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(34): Facebook\Facebook->get('/me', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 04:16:29 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(34): Facebook\Facebook->get('/me', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 04:19:42 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(34): Facebook\Facebook->get('/me', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 04:55:02 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(33): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 04:55:46 --> Undefined variable: fb_user_info
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 36, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-21 04:55:58 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(33): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 05:01:35 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(33): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 05:02:24 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(33): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 05:50:22 --> hash_hmac() expects parameter 2 to be string, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hash_hmac() exp...', '/home/nocjadpy6...', 70, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/AccessToken.php(70): hash_hmac('sha256', Object(__PHP_Incomplete_Class), '6eff2db73202ab4...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(197): Facebook\Authentication\AccessToken->getAppSecretProof('6eff2db73202ab4...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(470): Facebook\FacebookRequest->getAppSecretProof()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookRequest.php(515): Facebook\FacebookRequest->getParams()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(166): Facebook\FacebookRequest->getUrl()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(204): Facebook\FacebookClient->prepareRequestMessage(Object(Facebook\FacebookRequest))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(__PHP_Incomplete_Class), NULL, 'v2.10')
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(33): Facebook\Facebook->get('/me?fields=name...', Object(__PHP_Incomplete_Class))
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-03-21 06:54:49 --> App\Controllers\Login::instagram(): Failed opening required '/home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/cosenary/instagram/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 06:56:44 --> Class 'app\Libraries\vendor\cosenary\instagram\src\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 06:58:23 --> App\Controllers\Login::instagram(): Failed opening required '/home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/app/Libraries/vendor/cosenary/instagram/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 06:59:02 --> require(/home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/app/Libraries/vendor/cosenary/instagram/src/Instagram.php): failed to open stream: No such file or directory
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(/home/n...', '/home/nocjadpy6...', 75, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(75): require()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-21 06:59:50 --> App\Controllers\Login::instagram(): Failed opening required '/home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/app/Libraries/vendor/cosenary/instagram/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:00:13 --> App\Controllers\Login::instagram(): Failed opening required '/home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/cosenary/instagram/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:01:40 --> App\Controllers\Login::instagram(): Failed opening required '/home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/cosenary/instagram/src/instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:02:54 --> App\Controllers\Login::instagram(): Failed opening required '/home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/cosenary/instagram/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:04:28 --> App\Controllers\Login::instagram(): Failed opening required '/home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/cosenary/instagram/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:05:00 --> App\Controllers\Login::instagram(): Failed opening required '/home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/cosenary/instagram/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:05:33 --> App\Controllers\Login::instagram(): Failed opening required 'https://tryyourwork.com/docladdeLibraries/vendor/cosenary/instagram/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:05:57 --> App\Controllers\Login::instagram(): Failed opening required 'https://tryyourwork.com/docladde/Libraries/vendor/cosenary/instagram/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:07:02 --> App\Controllers\Login::instagram(): Failed opening required 'https://tryyourwork.com/docladde/Libraries/vendor/cosenary/instagram/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:08:50 --> App\Controllers\Login::instagram(): Failed opening required '/home/nocjadpy678c/public_html/tryyourwork.com/docladder/app//Libraries/vendor/cosenary/instagram/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:11:58 --> Undefined variable: insta
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 52, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(54): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 07:12:16 --> Undefined variable: insta
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 52, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(54): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 07:19:45 --> Undefined variable: insta
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 52, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(54): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 07:19:56 --> Class 'Instagram\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:20:17 --> Class 'app\Libraries\vendor\cosenary\instagram\src\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:20:49 --> Class 'Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:23:45 --> Class 'Instagram\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:24:11 --> Class 'instagram\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:24:23 --> Class 'Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:25:14 --> Class 'Instagram\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:28:02 --> syntax error, unexpected '/'
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 07:28:21 --> Class 'app\Libraries\vendor\cosenary\instagram\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:29:43 --> Class 'app\Libraries\vendor\cosenary\instagram\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:30:12 --> syntax error, unexpected '/', expecting ';' or ','
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 07:30:29 --> Class 'app\Libraries\vendor\cosenary\instagram\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:30:59 --> Class 'app\Libraries\vendor\cosenary\instagram\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:31:14 --> Class 'app\Libraries\vendor\cosenary\instagram\src\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:32:12 --> Cannot declare class MetzWeb\Instagram\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:33:16 --> Cannot declare class MetzWeb\Instagram\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:34:46 --> Class 'App\Libraries\vendor\cosenary\instagram\Instagram\BaseController' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(264): include_once()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 07:35:30 --> Class 'App\Controllers\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:36:14 --> Class 'Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:38:05 --> Class 'instagram\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->instagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:42:50 --> Cannot declare class MetzWeb\Instagram\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:43:20 --> Cannot declare class MetzWeb\Instagram\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:48:31 --> Cannot declare class MetzWeb\Instagram\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:48:51 --> Cannot declare class MetzWeb\Instagram\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:52:10 --> Class 'App\Libraries\vendor\cosenary\instagram\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->apinstagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:52:23 --> Class 'App\Controllers\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->apinstagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 07:53:33 --> Cannot declare class MetzWeb\Instagram\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:56:46 --> Cannot declare class MetzWeb\Instagram\Instagrams, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 07:57:36 --> Cannot declare class MetzWeb\Insta\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 08:02:41 --> Class 'App\Libraries\vendor\EspressoDev\InstagramBasicDisplay\InstagramBasicDisplay' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->apinstagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 08:03:42 --> Class 'App\Libraries\vendor\EspressoDev\InstagramBasicDisplay\src\InstagramBasicDisplay' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->apinstagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 08:05:14 --> Class 'App\Libraries\vendor\EspressoDev\InstagramBasicDisplay\InstagramBasicDisplay' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->apinstagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 08:05:19 --> Class 'App\Libraries\vendor\EspressoDev\InstagramBasicDisplay\InstagramBasicDisplay' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->apinstagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 08:06:51 --> Cannot declare class EspressoDev\InstagramBasicDisplay\InstagramBasicDisplay, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 08:09:48 --> syntax error, unexpected 'private' (T_PRIVATE)
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/nocjadpy6...')
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\v...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\v...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(78): spl_autoload_call('App\\Libraries\\v...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->apinstagram()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-21 08:12:08 --> Cannot declare class EspressoDev\InstagramBasicDisplay\InstagramBasicDisplay, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 08:12:24 --> Undefined variable: insta
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/login.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 52, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/Login.php(55): view('login', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-21 08:28:55 --> Class 'App\Controllers\InstagramBasicDisplay' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->apinstagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 08:29:15 --> Cannot declare class MetzWeb\Instagram\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 08:31:00 --> Cannot declare class MetzWeb\Instagram\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 08:31:06 --> Cannot declare class MetzWeb\Instagram\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 08:34:29 --> Cannot declare class MetzWeb\Instagram\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 23:48:00 --> Cannot declare class MetzWeb\Instagram\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 23:53:27 --> Cannot declare class MetzWeb\Instagrams\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 23:54:28 --> Cannot declare class MetzWeb\Instagram\insta, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 23:54:53 --> Cannot declare class MetzWeb\Instagram\Instagram, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 23:56:14 --> App\Controllers\Login::apinstagram(): Failed opening required '/home/nocjadpy678c/public_html/tryyourwork.com/docladder/app//Libraries/vendor/instagram/InstagramPhp/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 23:57:17 --> App\Controllers\Login::apinstagram(): Failed opening required '/home/nocjadpy678c/public_html/tryyourwork.com/docladder/app//Libraries/vendor/instagram/InstagramPhp/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-03-21 23:57:40 --> Class 'App\Controllers\Instagram' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Login->apinstagram()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-21 23:58:30 --> App\Controllers\Login::apinstagram(): Failed opening required '/home/nocjadpy678c/public_html/tryyourwork.com/docladder/app//Libraries/vendor/instagram/InstagramPhp/src/Instagram.php' (include_path='.:/opt/alt/php74/usr/share/pear')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

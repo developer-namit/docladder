@@ -1,0 +1,362 @@
+ERROR - 2022-10-27 00:00:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+CRITICAL - 2022-10-27 00:00:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(159): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 00:01:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+CRITICAL - 2022-10-27 00:01:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(159): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-27 01:37:31 --> syntax error, unexpected '}', expecting end of file
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('recruiter-advan...', Array, true)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(742): view('recruiter-advan...', Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->advance()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-27 01:54:15 --> Undefined variable: total
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(636): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 636, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->advance()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-27 02:14:35 --> is_array() expects exactly 1 parameter, 2 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'is_array() expe...', '/home/nocjadpy6...', 151, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/job-seeker-profile.php(151): is_array('Delhi', Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('job-seeker-prof...', Array, true)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(124): view('job-seeker-prof...', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->index()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-27 02:18:24 --> in_array() expects parameter 2 to be array, int given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'in_array() expe...', '/home/nocjadpy6...', 154, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/job-seeker-profile.php(154): in_array('Delhi', 0)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('job-seeker-prof...', Array, true)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(124): view('job-seeker-prof...', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->index()
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-27 02:19:24 --> Undefined variable: asd
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Views/job-seeker-profile.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 152, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(214): include('/home/nocjadpy6...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render('job-seeker-prof...', Array, true)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/JobseekerProfile.php(124): view('job-seeker-prof...', Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobseekerProfile->index()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobseekerProfile))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 02:46:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'city LIKE('%Anjaw%')  OR city LIKE('%Changlang%')  OR city LIKE('%East Kameng%')' at line 7
+CRITICAL - 2022-10-27 02:46:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'city LIKE('%Anjaw%')  OR city LIKE('%Changlang%')  OR city LIKE('%East Kameng%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(146): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-27 05:48:42 --> This authorization code has expired.
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Authentication/OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Libraries/vendor/facebook/graph-sdk/src/Facebook/Helpers/FacebookRedirectLoginHelper.php(228): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQDgFyXoXmC3UXZ...', 'https://tryyour...')
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterPost.php(102): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterPost->Recruiter()
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterPost))
+#11 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-27 06:42:52 --> Undefined variable: db
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 110, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(163): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-27 06:46:40 --> Undefined variable: buildeer
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(114): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/nocjadpy6...', 114, Array)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(161): App\Models\RecruiterSearchModel->fetch_data(Array)
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-10-27 06:50:22 --> Column 'id' in where clause is ambiguous
+CRITICAL - 2022-10-27 06:50:22 --> Column 'id' in where clause is ambiguous
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(116): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(162): App\Models\RecruiterSearchModel->fetch_data(Array)
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#9 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-10-27 06:57:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 06:57:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(182): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:00:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firoz' at line 7
+CRITICAL - 2022-10-27 08:00:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firoz' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(183): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:00:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:00:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(183): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:01:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firoz' at line 7
+CRITICAL - 2022-10-27 08:01:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firoz' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(183): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:02:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:02:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(183): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:02:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firoz' at line 7
+CRITICAL - 2022-10-27 08:02:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND (city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firoz' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(184): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:03:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:03:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(184): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:04:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND ()city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozp' at line 7
+CRITICAL - 2022-10-27 08:04:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND ()city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozp' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(184): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:05:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:05:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(183): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:05:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:05:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(184): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:06:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:06:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(184): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:07:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:07:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(184): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:08:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:08:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(184): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:08:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:08:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(184): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:08:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:08:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(185): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:09:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:09:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(185): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:11:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:11:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(185): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:11:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:11:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(186): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-27 08:12:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+CRITICAL - 2022-10-27 08:12:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')city LIKE('%Amritsar%')  OR city LIKE('%Bathinda%')  OR city LIKE('%Firozpur%')' at line 7
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT * FROM j...', 0)
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM j...')
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM j...')
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Models/RecruiterSearchModel.php(186): CodeIgniter\Database\BaseConnection->query('SELECT * FROM j...')
+#4 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/app/Controllers/RecruiterSimpleSearch.php(124): App\Models\RecruiterSearchModel->count_all(1, 10, Array)
+#5 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\RecruiterSimpleSearch->SimpleSearching()
+#6 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterSimpleSearch))
+#7 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

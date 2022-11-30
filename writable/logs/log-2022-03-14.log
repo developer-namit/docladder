@@ -1,0 +1,117 @@
+CRITICAL - 2022-03-14 01:45:29 --> Undefined variable: url
+#0 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-14 01:46:08 --> file_get_contents(https://waba-sandbox.360dialog.io/): failed to open stream: HTTP request failed! HTTP/1.1 404 NOT FOUND
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(26): file_get_contents('https://waba-sa...', false, Resource id #121)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-14 04:10:55 --> file_get_contents(https://waba-sandbox.360dialog.io/v1/messages): failed to open stream: HTTP request failed! HTTP/1.1 401 UNAUTHORIZED
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(26): file_get_contents('https://waba-sa...', false, Resource id #121)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-14 04:10:57 --> file_get_contents(https://waba-sandbox.360dialog.io/v1/messages): failed to open stream: HTTP request failed! HTTP/1.1 401 UNAUTHORIZED
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(26): file_get_contents('https://waba-sa...', false, Resource id #121)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-14 05:03:18 --> file_get_contents(https://app-server.wati.io/send?phone=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJmYTU1MDkyMi0wYjNmLTQ3ODEtYjIyMS04MzBlMjE3NGIzNGIiLCJ1bmlxdWVfbmFtZSI6InNoaWt1amFpc3dhbDE5QGdtYWlsLmNvbSIsIm5hbWVpZCI6InNoaWt1amFpc3dhbDE5QGdtYWlsLmNvbSIsImVtYWlsIjoic2hpa3VqYWlzd2FsMTlAZ21haWwuY29tIiwiYXV0aF90aW1lIjoiMDMvMTEvMjAyMiAxMTo1OToxMyIsImRiX25hbWUiOiJ3YXRpX2FwcCIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IlRSSUFMIiwiZXhwIjoxNjQ3NjQ4MDAwLCJpc3MiOiJDbGFyZV9BSSIsImF1ZCI6IkNsYXJlX0FJIn0.xV0i15paTRjLFptnwRSOdT5yCK7WR0IyAoIr3jCjN6s): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(26): file_get_contents('https://app-ser...', false, Resource id #121)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-14 05:03:56 --> file_get_contents(https://app-server.wati.io/): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(26): file_get_contents('https://app-ser...', false, Resource id #121)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-14 05:04:06 --> file_get_contents(https://app-server.wati.io): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\projects\app\Controllers\WhatsApp.php(26): file_get_contents('https://app-ser...', false, Resource id #121)
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#3 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-14 08:57:31 --> Class 'App\Controllers\WhatsappAPI' not found
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-14 09:07:09 --> Class 'App\Controllers\WhatsappAPI' not found
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-14 09:08:49 --> Class 'App\Controllers\WhatsappAPI' not found
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-14 09:15:39 --> Class 'App\Controllers\WhatsappAPI' not found
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-14 09:16:39 --> Class 'App\Controllers\WhatsappAPI' not found
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-14 09:17:49 --> Class 'App\Controllers\WhatsappAPI' not found
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-14 09:18:44 --> Class 'App\Controllers\WhatsappAPI' not found
+#0 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\WhatsApp->index()
+#1 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\WhatsApp))
+#2 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\projects\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\projects\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

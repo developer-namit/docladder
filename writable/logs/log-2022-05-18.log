@@ -1,0 +1,43 @@
+CRITICAL - 2022-05-18 07:50:25 --> App\Controllers\Home::index(): Failed opening required 'C:\xampp\htdocs\docladdregit\docladderdigital\app\/Libraries/vendor/instagram/instagram/instagram_basic_display_api.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-18 08:00:58 --> Class 'App\Models\StateModel' not found
+#0 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\RecruiterPost->Recruiter()
+#1 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterPost))
+#2 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\docladdregit\docladderdigital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-18 08:05:17 --> Class 'App\Models\StateModel' not found
+#0 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\RecruiterPost->Recruiter()
+#1 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterPost))
+#2 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\docladdregit\docladderdigital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-05-18 08:21:43 --> Class 'App\Models\StateModel' not found
+#0 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\RecruiterPost->Recruiter()
+#1 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterPost))
+#2 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\docladdregit\docladderdigital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-05-18 08:24:34 --> Error connecting to the database: Unknown database 'docleader'
+CRITICAL - 2022-05-18 08:24:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'docleader'
+#0 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\Model.php(723): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\docladdregit\docladderdigital\app\Controllers\RecruiterPost.php(16): CodeIgniter\Model->__call('get', Array)
+#4 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\RecruiterPost->Recruiter()
+#5 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\RecruiterPost))
+#6 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\docladdregit\docladderdigital\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\docladdregit\docladderdigital\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-05-18 09:24:04 --> Class 'App\Models\stateModel' not found
+#0 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\JobProfile->index()
+#1 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\JobProfile))
+#2 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/nocjadpy678c/public_html/tryyourwork.com/docladder/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

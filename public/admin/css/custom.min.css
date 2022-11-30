@@ -1,0 +1,42 @@
+
+/*# sourceMappingURL=custom.min.css.map */
+
+#preloader {
+    background-color: transparent;
+}
+
+.nav-link.active{
+    color: var(--vz-vertical-menu-item-active-color)
+}
+
+.nav-tabs .nav-link.active{
+    color: #fff;
+    background-color: var(--vz-vertical-menu-bg-dark);
+}
+
+#AdvancePricing .btn{
+    padding: 0.4rem 0.9rem;
+}
+
+.pagination{
+    margin-top:20px;
+}
+.pagination a {
+    border: 1px solid var(--vz-border-color);
+    background-color: var(--vz-card-bg-custom);
+    color: var(--vz-link-color);
+    padding: 7px 15px;
+}
+.pagination li.active {
+    background-color: #405189;
+    color: #fff;
+    border-color: #405189;
+    font-weight: 500;
+}
+.pagination li.active a {
+    background-color: #405189;
+    color: #fff;
+    border-color: #405189;
+    text-decoration: none;
+}
+

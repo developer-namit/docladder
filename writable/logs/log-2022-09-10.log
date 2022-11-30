@@ -1,0 +1,3 @@
+CRITICAL - 2022-09-10 04:09:49 --> Cannot use App\Models\SignupModel as SignupModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

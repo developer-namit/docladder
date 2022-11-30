@@ -1,0 +1,39 @@
+CRITICAL - 2022-05-04 05:52:56 --> strtolower(): Passing null to parameter #1 ($string) of type string is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Config\Services.php(570): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#5 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Config\BaseService.php(189): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#6 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Config\Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#7 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Config\BaseService.php(248): CodeIgniter\Config\Services::session()
+#8 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Common.php(909): CodeIgniter\Config\BaseService::__callStatic('session', Array)
+#9 C:\xampp\htdocs\docladders\doc\app\Controllers\Home.php(28): session()
+#10 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#11 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\docladders\doc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2022-05-04 05:54:43 --> Undefined variable $session
+#0 C:\xampp\htdocs\docladders\doc\app\Controllers\Home.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 74)
+#1 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#2 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\docladders\doc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-04 05:54:43 --> Uncaught ErrorException: strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Validation\FormatRules.php:253
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'strtolower(): P...', 'C:\\xampp\\htdocs...', 253)
+#1 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Validation\FormatRules.php(253): strtolower(NULL)
+#2 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\HTTP\RequestTrait.php(151): CodeIgniter\Validation\FormatRules->valid_ip('::1')
+#3 C:\xampp\htdocs\docladders\doc\app\Views\errors\html\error_exception.php(206): CodeIgniter\HTTP\Request->getIPAddress()
+#4 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#6 C:\xampp\htdocs\docladders\doc\vendor\codeigniter4\framework\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(ErrorException), 500)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#8 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

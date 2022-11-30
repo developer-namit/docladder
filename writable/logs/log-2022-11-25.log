@@ -1,0 +1,59 @@
+CRITICAL - 2022-11-25 01:34:42 --> unlink(C:\xampp\htdocs\docladder\writable\debugbar/debugbar_1669357973.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Toolbar\Collectors\History.php(74): unlink('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1669361679, 20)
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 C:\xampp\htdocs\docladder\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#7 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-11-25 05:12:35 --> Undefined index: designation
+#0 C:\xampp\htdocs\docladder\app\Views\admin\jobseeker\edit.php(368): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 368, Array)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/jobseeker...', Array, true)
+#4 C:\xampp\htdocs\docladder\app\Controllers\Admin\JobseekerController.php(717): view('admin/jobseeker...', Array)
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\JobseekerController->detail('153')
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JobseekerController))
+#7 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-25 05:13:34 --> Undefined index: designation_id
+#0 C:\xampp\htdocs\docladder\app\Views\admin\jobseeker\edit.php(362): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 362, Array)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/jobseeker...', Array, true)
+#4 C:\xampp\htdocs\docladder\app\Controllers\Admin\JobseekerController.php(717): view('admin/jobseeker...', Array)
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\JobseekerController->detail('153')
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JobseekerController))
+#7 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-25 05:54:08 --> Undefined property: CodeIgniter\View\View::$uri
+#0 C:\xampp\htdocs\docladder\app\Views\admin\jobseeker\edit.php(673): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 673, Array)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/jobseeker...', Array, true)
+#4 C:\xampp\htdocs\docladder\app\Controllers\Admin\JobseekerController.php(723): view('admin/jobseeker...', Array)
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\JobseekerController->detail('153')
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JobseekerController))
+#7 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-11-25 23:42:49 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 477, Array)
+#1 C:\xampp\htdocs\docladder\app\Controllers\Admin\JobseekerController.php(477): explode(', ', Array)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\JobseekerController->detail('153')
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JobseekerController))
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-11-25 23:42:57 --> explode() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode() expec...', 'C:\\xampp\\htdocs...', 477, Array)
+#1 C:\xampp\htdocs\docladder\app\Controllers\Admin\JobseekerController.php(477): explode(', ', Array)
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\JobseekerController->detail('153')
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JobseekerController))
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

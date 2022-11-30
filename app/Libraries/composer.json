@@ -1,0 +1,20 @@
+{
+    "require": {
+        "lpkapil/phpdocx": "1.0.0",
+        "tecnickcom/tcpdf": "^6.4",
+        "nelexa/zip": "^4.0",
+        "smalot/pdfparser": "^2.1"
+    },
+    "repositories": [{
+        "type": "package",
+        "package": {
+            "name": "lpkapil/phpdocx",
+            "version": "1.0.0",
+            "source": {
+                "url": "https://github.com/lpkapil/phpdocx.git",
+                "type": "git",
+                "reference": "master"
+            }
+        }
+    }]
+}
