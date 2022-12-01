@@ -65,17 +65,22 @@
     <script src="<?php echo base_url();?>/public/admin/js/plugins.js"></script>
 
     <!-- apexcharts -->
-    <script src="<?php echo base_url();?>/public/admin/libs/apexcharts/apexcharts.min.js"></script>
+    <!-- <script src="<?php echo base_url();?>/public/admin/libs/apexcharts/apexcharts.min.js"></script> -->
 
     <!-- Vector map-->
-    <script src="<?php echo base_url();?>/public/admin/libs/jsvectormap/js/jsvectormap.min.js"></script>
-    <script src="<?php echo base_url();?>/public/admin/libs/jsvectormap/maps/world-merc.js"></script>
+    <!-- <script src="<?php echo base_url();?>/public/admin/libs/jsvectormap/js/jsvectormap.min.js"></script>
+    <script src="<?php echo base_url();?>/public/admin/libs/jsvectormap/maps/world-merc.js"></script> -->
 
     <!--Swiper slider js-->
-    <script src="<?php echo base_url();?>/public/admin/libs/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="<?php echo base_url();?>/public/admin/libs/swiper/swiper-bundle.min.js"></script> -->
 
     <!-- Dashboard init -->
-    <script src="<?php echo base_url();?>/public/admin/js/pages/dashboard-ecommerce.init.js"></script>
+    <!-- <script src="<?php echo base_url();?>/public/admin/js/pages/dashboard-ecommerce.init.js"></script> -->
+
+    <!-- init js -->
+    <script src="<?php echo base_url();?>/public/admin/libs/%40ckeditor/ckeditor5-build-classic/build/ckeditor.js"></script>
+
+    <!-- <script src="<?php echo base_url();?>/public/admin/js/pages/form-editor.init.js"></script> -->
 
     <!-- App js -->
     <script src="<?php echo base_url();?>/public/admin/js/app.js"></script>

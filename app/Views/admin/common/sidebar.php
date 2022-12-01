@@ -36,10 +36,10 @@
             <div class="collapse menu-dropdown" id="sidebarPages">
                 <ul class="nav nav-sm flex-column">
                     <li class="nav-item">
-                        <a href="pages-starter.html" class="nav-link" data-key="t-starter"> Recruiter List </a>
+                        <a href="<?= base_url('admin/recruiter/list'); ?>" class="nav-link" data-key="t-starter"> Recruiter List </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#sidebarProfile" class="nav-link" data-key="t-profile"> Add New Recruiter
+                        <a href="<?= base_url('admin/recruiter/add'); ?>" class="nav-link" data-key="t-profile"> Add New Recruiter
                         </a>
                     </li>
 
@@ -51,6 +51,22 @@
             <a href="<?= base_url('admin/visitor'); ?>" class="nav-link menu-link">
                 <i class="ri-rocket-line"></i> <span data-key="t-landing">Vistior Management</span>
             </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link menu-link" href="#sidebarTables" data-bs-toggle="collapse" role="button" aria-expanded="false" aria-controls="sidebarTables">
+                <i class="ri-layout-grid-line"></i> <span data-key="t-tables">Mail Management</span>
+            </a>
+            <div class="collapse menu-dropdown" id="sidebarTables">
+                <ul class="nav nav-sm flex-column">
+                    <li class="nav-item">
+                        <a href="<?= base_url('admin/jobseeker/bulk_email'); ?>" class="nav-link" data-key="t-basic-tables">Email to Jobseekers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="<?= base_url('admin/recruiter/bulk_email'); ?>" class="nav-link" data-key="t-grid-js">Email to Recruiters</a>
+                    </li>
+                </ul>
+            </div>
         </li>
 
         <!-- <li class="nav-item">

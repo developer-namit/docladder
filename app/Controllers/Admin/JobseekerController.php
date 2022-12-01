@@ -1225,4 +1225,58 @@ class JobseekerController extends BaseController
         
         return view('admin/jobseeker/visitor_list',$data);
     }
+
+    public function bulk_email(){
+
+        if($this->request->getMethod() == 'post'){
+
+            helper(['form', 'url']);
+
+            $validation =  \Config\Services::validation();
+            $rules = [
+                "emails" => [
+                    "label" => "Email", 
+                    "rules" => "required"
+                ],
+                "description" => [
+                    "label" => "Description", 
+                    "rules" => "required"
+                ]
+            ];
+
+            if ($this->validate($rules)) {
+                $data['message'] = $this->request->getVar('description');
+                
+                $view = \Config\Services::renderer();
+                $message = $view->render('job-seeker-bulk-email.php',$data);
+                $email = \Config\Services::email();
+                $email->setFrom('docladder@vertosys.com');
+                $email->setTo(['namit.soften@gmail.com']);
+                //$email->setTo($_POST['emails']);
+                $email->setSubject('Docladder');
+                $email->setMessage($message);
+                if ($email->send()) {
+                    $response['status'] = 1;
+                    $response['message'] = "Email successfully sent.";
+                } else {
+                    $response['status'] = 0;
+                    $response['message'] = $email->printDebugger(['headers']);
+                }
+              
+                
+            }else{
+                $response = array('status'=>2,'errors'=>$validation->getErrors());
+            }
+            
+            echo json_encode($response); die();
+
+        }
+
+        $JobSeekerModel  = new  JobSeekerModel();
+        $data['users'] = $JobSeekerModel->select('id, first_name, email_id, contact_no')
+                ->where('status',0)
+                ->get()->getResultArray();
+        return view('admin/jobseeker/bulk_email',$data);
+    }
+    
 }

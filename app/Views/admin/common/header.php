@@ -11,10 +11,10 @@
     <link rel="shortcut icon" href="<?php echo base_url();?>/public/admin/images/favicon.ico">
 
     <!-- jsvectormap css -->
-    <link href="<?php echo base_url();?>/public/admin/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="<?php echo base_url();?>/public/admin/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css" /> -->
 
     <!--Swiper slider css-->
-    <link href="<?php echo base_url();?>/public/admin/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="<?php echo base_url();?>/public/admin/libs/swiper/swiper-bundle.min.css" rel="stylesheet" type="text/css" /> -->
 
     <!-- Layout config Js -->
     <script src="<?php echo base_url();?>/public/admin/js/layout.js"></script>

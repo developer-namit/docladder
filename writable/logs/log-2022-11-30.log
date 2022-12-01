@@ -1,0 +1,79 @@
+CRITICAL - 2022-11-30 02:10:50 --> Invalid file: admin/jobseeker/bulk_email.php
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/jobseeker...')
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/jobseeker...', Array, true)
+#2 C:\xampp\htdocs\docladder\app\Controllers\Admin\JobseekerController.php(1235): view('admin/jobseeker...', Array)
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\JobseekerController->bulk_email()
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JobseekerController))
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-30 03:23:10 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-30 03:23:11 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-11-30 04:20:09 --> Undefined variable: message
+#0 C:\xampp\htdocs\docladder\app\Views\job-seeker-bulk-email.php(46): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('job-seeker-bulk...', Array, true)
+#4 C:\xampp\htdocs\docladder\app\Controllers\Admin\JobseekerController.php(1231): view('job-seeker-bulk...')
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\JobseekerController->bulk_email()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JobseekerController))
+#7 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-30 04:25:06 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-11-30 04:25:08 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-11-30 04:25:47 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-11-30 04:25:49 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-11-30 04:26:32 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-11-30 04:27:42 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-11-30 04:29:49 --> Undefined variable: message
+#0 C:\xampp\htdocs\docladder\app\Views\job-seeker-bulk-email.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\docladder\app\Controllers\Admin\JobseekerController.php(1251): CodeIgniter\View\View->render('job-seeker-bulk...', Array)
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\JobseekerController->bulk_email()
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\JobseekerController))
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-11-30 04:31:30 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-11-30 04:49:03 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-11-30 05:42:32 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-11-30 05:42:34 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-11-30 05:43:11 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-11-30 05:44:29 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2022-11-30 05:46:33 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2022-11-30 06:24:35 --> Invalid file: admin/recruiter/bulk_email.php
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/recruiter...')
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/recruiter...', Array, true)
+#2 C:\xampp\htdocs\docladder\app\Controllers\Admin\RecruiterController.php(406): view('admin/recruiter...', Array)
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\RecruiterController->bulk_email()
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RecruiterController))
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-30 06:24:43 --> Invalid file: admin/recruiter/bulk_email.php
+#0 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/recruiter...')
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/recruiter...', Array, true)
+#2 C:\xampp\htdocs\docladder\app\Controllers\Admin\RecruiterController.php(406): view('admin/recruiter...', Array)
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\RecruiterController->bulk_email()
+#4 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RecruiterController))
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-11-30 06:24:53 --> Undefined index: email_id
+#0 C:\xampp\htdocs\docladder\app\Views\admin\recuiter\bulk_email.php(80): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 80, Array)
+#1 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\Common.php(1097): CodeIgniter\View\View->render('admin/recuiter/...', Array, true)
+#4 C:\xampp\htdocs\docladder\app\Controllers\Admin\RecruiterController.php(406): view('admin/recuiter/...', Array)
+#5 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(824): App\Controllers\Admin\RecruiterController->bulk_email()
+#6 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\RecruiterController))
+#7 C:\xampp\htdocs\docladder\vendor\codeigniter4\framework\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\docladder\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-11-30 22:18:56 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()

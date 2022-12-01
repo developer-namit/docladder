@@ -598,15 +598,151 @@ class JobseekerRegister extends BaseController
             ],
         ];
 
-        if ($this->validate($rules)) { 
-
+        if ($this->validate($rules)) {            
             $email = $this->request->getvar('emailid');
             $phone = $this->request->getvar('contactno');
+
+            $selected_states = [];
+            $current_location = [];
+            $preffered_location = [];
+            
+            $mainGroupSates = ["NI","EI","WI","SI"];
+            if(isset($_POST['state']) && !empty($_POST['state'])){
+                foreach($_POST['state'] as $keys => $stateData){
+                    if(!empty($stateData)){
+                        if(in_array($stateData, $mainGroupSates)){
+                                if($stateData == "NI"){
+                                    $current_location[] = "Anywhere in North India";
+                                }else if($stateData == "EI"){
+                                    $current_location[] = "Anywhere in East India";
+                                }else if($stateData == "WI"){
+                                    $current_location[] = "Anywhere in West India";
+                                }else{
+                                    $current_location[] = "Anywhere in South India";
+                                }
+                        }else{
+                            $explode_data = explode("_",$stateData);
+                            
+                            if(isset($explode_data[0]) && isset($explode_data[1])){
+                                    
+                                if($explode_data[0] == "city"){
+                                    
+                                $city_data = $db->query("SELECT * from cities Where id = '" . $explode_data[1]. "' ")->getRowArray();
+                                $current_location[] = $city_data['name'];
+                                    
+                                }else if($explode_data[0] == "state"){
+                                    
+                                $selected_states[] = $explode_data[1];
+                                
+                                $state_data = $db->query("SELECT * from states Where id = '" . $explode_data[1]. "' ")->getRowArray();
+                                $other = "";
+                                if(isset($_POST['other']['states'][$explode_data[1]]) && !empty($_POST['other']['states'][$explode_data[1]])){
+                                    $other = $state_data['other'];
+                                }
+                                
+                                $current_location[] = $state_data['name'];
+                                if(!empty($other)){
+                                    $current_location[] = $state_data['name'];
+                                    $current_location[] = $other;
+                                }
+                                }
+                                
+                            } 
+                        }
+                    }
+                }
+            }
+            
+            if(isset($_POST['other']['states']) && !empty($_POST['other']['states'])){
+                foreach($_POST['other']['states'] as $stateId => $otherSates){
+                    // check not empty condition
+                    if(!empty($otherSates)){
+                        // Check If state is not selected but select in other state
+                        if(!in_array($stateId,$selected_states) || empty($selected_states)){
+                            $state_data = $db->query("SELECT * from states Where id = '" . $stateId. "' ")->getRowArray();
+                            $current_location[] = $state_data['other'];
+                            $current_location[] = $otherSates;
+                        }
+                    }
+                }
+            }
+
+
+
+            //insert preffered location data
+            $selected_states = [];
+            
+            $mainGroupSates = ["NI","EI","WI","SI"];
+            if(isset($_POST['location']) && !empty($_POST['location'])){
+                foreach($_POST['location'] as $keys => $stateData){
+                    if(!empty($stateData)){
+                        if(in_array($stateData, $mainGroupSates)){
+                            if($stateData == "NI"){
+                                $preffered_location[] = "Anywhere in North India";
+                            }else if($stateData == "EI"){
+                                $preffered_location[] = "Anywhere in East India";
+                            }else if($stateData == "WI"){
+                                $preffered_location[] = "Anywhere in West India";
+                            }else{
+                                $preffered_location[] = "Anywhere in South India";
+                            }
+                        }else{
+                            $explode_data = explode("_",$stateData);
+                            
+                            if(isset($explode_data[0]) && isset($explode_data[1])){
+                                    
+                                if($explode_data[0] == "city"){
+                                    
+                                    $city_data = $db->query("SELECT * from cities Where id = '" . $explode_data[1]. "' ")->getRowArray();
+        
+                                    $preffered_location[] = $city_data['name'];
+                                    
+                                }else if($explode_data[0] == "state"){
+                                    
+                                $selected_states[] = $explode_data[1];
+                                
+                                $state_data = $db->query("SELECT * from states Where id = '" . $explode_data[1]. "' ")->getRowArray();
+                                $other = "";
+                                if(isset($_POST['other']['location'][$explode_data[1]]) && !empty($_POST['other']['location'][$explode_data[1]])){
+                                    $other = $state_data['other'];
+                                }
+                                
+                                $preffered_location[] = $state_data['name'];
+                                if(!empty($other)){
+                                    $preffered_location[] = $state_data['name'];
+                                    $preffered_location[] = $other;
+                                }
+                                }
+                                
+                            } 
+                        }
+                    }
+                }
+            }
+            
+            if(isset($_POST['other']['location']) && !empty($_POST['other']['location'])){
+                foreach($_POST['other']['location'] as $stateId => $otherSates){
+                    
+                    // check not empty condition
+                    if(!empty($otherSates)){
+                    
+                        // Check If state is not selected but select in other state
+                        if(!in_array($stateId,$selected_states) || empty($selected_states)){
+                            
+                            $state_data = $db->query("SELECT * from states Where id = '" . $stateId. "' ")->getRowArray();
+                                
+                            $preffered_location[] = $state_data['other'];
+                            $preffered_location[] = $otherSates;
+                        }
+                    }
+                }
+            }
 
             $builder = $db->table('visitors');
             $user = $builder->where('phone', $phone)
                             ->orWhere('email', $email)
                             ->get()->getRowArray();
+
 
             if(empty($user)){
                 $data = [
@@ -614,8 +750,11 @@ class JobseekerRegister extends BaseController
                     'email'  => $email,
                     'phone'  => $phone,
                     'postdata'  => json_encode($_POST),
+                    'current_location'  => (!empty($current_location)) ? implode(", ",$current_location) : "",
+                    'preferred_location'  => (!empty($preffered_location)) ? implode(", ",$preffered_location) : "",
                     'status'  => 0,
                 ];
+                
             
                 $builder = $db->table('visitors');
                 if($builder->insert($data)){
@@ -629,6 +768,33 @@ class JobseekerRegister extends BaseController
                         'message' => 'Already Available!',
                     ];
                 }
+            }else{
+
+                $builder = $db->table('visitors');
+                $exitsting = $builder->where('phone', $phone)
+                                ->Where('email', $email)
+                                ->Where('status', 0)
+                                ->like('created_date',date('Y-m-d'))
+                                ->get()->getRowArray();
+
+                if(!empty($exitsting)){
+                    $data = [
+                        'name' => $this->request->getvar('firstname'),
+                        'postdata'  => json_encode($_POST),
+                        'current_location'  => (!empty($current_location)) ? implode(", ",$current_location) : "",
+                        'preferred_location'  => (!empty($preffered_location)) ? implode(", ",$preffered_location) : "",
+                    ];
+
+                    $builder = $db->table('visitors')
+                                ->where('id',$exitsting['id'])
+                                ->update($data);
+
+                    $response = [
+                        'status' => 1,
+                        'message' => 'Success',
+                    ];
+                }
+
             }
         }else{
             $response = array('status'=>2,'errors'=>$validation->getErrors());

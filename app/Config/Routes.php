@@ -269,6 +269,7 @@ $routes->setAutoRoute(true);
         $routes->match(['get'],'admin/jobseeker/delete/(:num)', 'Admin\JobseekerController::delete/$1',['filter' => 'authadmin']);
         $routes->match(['post'],'admin/jobseeker/importcsv', 'Admin\JobseekerController::importcsv',['filter' => 'authadmin']);
         $routes->match(['get'],'admin/visitor', 'Admin\JobseekerController::visitor_list',['filter' => 'authadmin']);
+        $routes->match(['get','post'],'admin/jobseeker/bulk_email', 'Admin\JobseekerController::bulk_email',['filter' => 'authadmin']);
 
         // Recuiter routes
 
@@ -277,7 +278,8 @@ $routes->setAutoRoute(true);
         $routes->match(['get', 'post'],'admin/recruiter/detail/(:num)', 'Admin\RecruiterController::detail/$1',['filter' => 'authadmin']);
         $routes->match(['get', 'post'],'admin/recruiter/update_password/(:num)', 'Admin\RecruiterController::update_password/$1',['filter' => 'authadmin']);
         $routes->match(['get', 'post'],'admin/recruiter/add_sub_user/(:num)', 'Admin\RecruiterController::add_sub_user/$1',['filter' => 'authadmin']);
-        $routes->match(['get'],'admin/recruiter/delete/(:num)', 'Admin\RecruiterController::delete/$1',['filter' => 'authadmin']);
+        $routes->match(['get','post'],'admin/recruiter/delete/(:num)', 'Admin\RecruiterController::delete/$1',['filter' => 'authadmin']);
+        $routes->match(['get','post'],'admin/recruiter/bulk_email', 'Admin\RecruiterController::bulk_email',['filter' => 'authadmin']);
 
 /*
  * --------------------------------------------------------------------

@@ -99,6 +99,7 @@
                             <span class="d-none d-sm-block">Education Details</span>
                         </a>
                     </li>
+                    
                 </ul>
                 <!-- Tab panes -->
                 <div class="tab-content text-muted">

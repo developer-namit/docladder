@@ -150,7 +150,7 @@
                                             <td>
                                                 <a href="<?= base_url('admin/recruiter/detail/'.$value['id']) ?>" class="btn btn-secondary btn-animation waves-effect waves-light" data-text="View Detail"><span>View Detail</span></a>
 
-                                                <a type="button" class="btn btn-danger btn-animation waves-effect waves-light deleteThis" data-text="Delete" data-url="<?= base_url('admin/recuiter/delete/'.$value['id']) ?>" ><span>Delete</span></a>
+                                                <a type="button" class="btn btn-danger btn-animation waves-effect waves-light deleteThis" data-text="Delete" data-url="<?= base_url('admin/recruiter/delete/'.$value['id']) ?>" ><span>Delete</span></a>
                                             </td>
                                         </tr>
                                     <?php } ?>

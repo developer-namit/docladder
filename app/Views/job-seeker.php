@@ -482,6 +482,17 @@ Footer-->
       return emailReg.test( $email );
     }
 
+    $('select[name="state[]"]').change(function(){
+      saveInput();
+    });
+
+    $('select[name="location[]"]').change(function(){
+      saveInput();
+    });
+
+    $(document).on('change','.child input',function(){
+      saveInput();
+    });
 
 
   </script>

@@ -290,7 +290,6 @@
                                                                 <th scope="col">Name</th>
                                                                 <th scope="col">Email Address</th>
                                                                 <th scope="col">Contact no.</th>
-                                                                <th scope="col">Client Type</th>
                                                                 <th scope="col">Status</th>
                                                                 <th scope="col">Actions</th>
                                                             </tr>
@@ -301,21 +300,10 @@
                                                             ?>
                                                                 <tr>
                                                                     <td class="fw-medium"><?= $value['id']; ?></td>
-                                                                    <td><?= $value['contact_person_name']; ?></td>
+                                                                    <td><?= $value['client_first_name']. " ". $value['client_last_name']; ?></td>
                                                                     <td><?= $value['email_address']; ?></td>
                                                                     <td><?= $value['contact_no']; ?></td>
-                                                                    <td>
-                                                                        <?php
-                                                                            if($value['client_type'] == 1){
-                                                                                echo "Consultant";
-                                                                            }else if($value['client_type'] == 2){
-                                                                                echo "Hospital";
-                                                                            }else  if($value['client_type'] == 3){
-                                                                                echo "Others";
-                                                                            }
-
-                                                                        ?>
-                                                                    </td>
+                                                                    
                                                                     <td>
                                                                         <?php if ($value['status'] == 'active') { ?>
                                                                             <span class="badge badge-soft-success">Active</span>
@@ -373,7 +361,7 @@
                         <div class="mb-3">
                             <label class="form-label">First Name</label>
                             <input type="text" name="first_name" class="form-control" placeholder="First Name" value="">
-                            <div id="name_error" class="text-danger"></div>
+                            <div id="first_name_error" class="text-danger"></div>
                         </div>
                     </div>
 
@@ -396,7 +384,7 @@
                     <div class="col-lg-6">
                         <div class="mb-3">
                             <label class="form-label">Contact No</label>
-                            <input type="text" name="contact_num" class="form-control" placeholder="Contact No" value="">
+                            <input type="text" name="contact_num" class="form-control" placeholder="Contact No" value="" maxlength="10">
                             <div id="contact_num_error" class="text-danger"></div>
                         </div>
                     </div>
@@ -456,7 +444,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
             </div>
         </form>
     </div>
@@ -617,7 +605,11 @@
                         title: data.message
                     });
 
-                    $('#UpdatePassword')[0].reset();
+                    $('#AddSubUser')[0].reset();
+
+                    setTimeout(function(){
+                        location.reload(); 
+                    }, 2000);
 
                 }else if(data.status == 2){
                   
