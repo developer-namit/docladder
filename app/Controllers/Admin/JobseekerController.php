@@ -1251,8 +1251,8 @@ class JobseekerController extends BaseController
                 $message = $view->render('job-seeker-bulk-email.php',$data);
                 $email = \Config\Services::email();
                 $email->setFrom('docladder@vertosys.com');
-                $email->setTo(['namit.soften@gmail.com']);
-                //$email->setTo($_POST['emails']);
+                //$email->setTo(['namit.soften@gmail.com']);
+                $email->setTo($_POST['emails']);
                 $email->setSubject('Docladder');
                 $email->setMessage($message);
                 if ($email->send()) {
@@ -1261,9 +1261,7 @@ class JobseekerController extends BaseController
                 } else {
                     $response['status'] = 0;
                     $response['message'] = $email->printDebugger(['headers']);
-                }
-              
-                
+                } 
             }else{
                 $response = array('status'=>2,'errors'=>$validation->getErrors());
             }
@@ -1272,11 +1270,49 @@ class JobseekerController extends BaseController
 
         }
 
-        $JobSeekerModel  = new  JobSeekerModel();
-        $data['users'] = $JobSeekerModel->select('id, first_name, email_id, contact_no')
-                ->where('status',0)
-                ->get()->getResultArray();
+        if(isset($_GET['ids']) && !empty($_GET['ids'])){
+            
+            $idsData = explode(",", $_GET['ids']);
+
+            $JobSeekerModel  = new  JobSeekerModel();
+            $selected_users = $JobSeekerModel->select('id, first_name, email_id, contact_no')
+                    ->whereIn('id',$idsData)
+                    ->get()->getResultArray();
+
+            // Not consider selcted ids
+            $JobSeekerModel  = new  JobSeekerModel();
+            $simple_users = $JobSeekerModel->select('id, first_name, email_id, contact_no')
+                    ->whereNotIn('id',$idsData)
+                    ->get()->getResultArray();
+
+
+            $data['users'] = array_merge($selected_users,$simple_users);
+            $data['selected_ids'] = $idsData;
+          
+        }else{
+            $JobSeekerModel  = new  JobSeekerModel();
+            $data['users'] = $JobSeekerModel->select('id, first_name, email_id, contact_no')
+                    ->where('status',0)
+                    ->get()->getResultArray();
+        }
+
         return view('admin/jobseeker/bulk_email',$data);
     }
     
+
+    public function bulk_delete(){
+
+        $model = new JobSeekerModel();
+        $model->whereIn('id',$this->request->getvar('ids'))
+        ->delete();
+
+        // Delete all old location data
+        $UserLocationTable = new UserLocationModel();
+        $UserLocationTable->whereIn('user_id', $this->request->getvar('ids'))->delete();
+
+        $response['status'] = 1;
+        $resposne['message'] = "Records deleted successfully!";
+
+        echo json_encode($response); die();
+    }
 }

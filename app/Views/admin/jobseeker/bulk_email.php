@@ -74,11 +74,22 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <?php foreach ($users as $key => $user) { ?>
+                                    <?php 
+                                        foreach ($users as $key => $user) { 
+                                            if(isset($selected_ids) && !empty($selected_ids)){
+                                                if(in_array($user['id'],$selected_ids)){
+                                                    $checked = "checked";
+                                                }else{
+                                                    $checked = "";
+                                                }
+                                            }else{
+                                                $checked = "";
+                                            }
+                                        ?>
                                     <tr>
                                         <td>
                                             <div class="form-check">
-                                                <input name="emails[]" class="form-check-input checkIn" type="checkbox" value="<?= $user['email_id']; ?>" id="cardtableCheck<?= $key; ?>">
+                                                <input name="emails[]" class="form-check-input checkIn" type="checkbox" value="<?= $user['email_id']; ?>" id="cardtableCheck<?= $key; ?>" <?= $checked ?>>
                                                 <label class="form-check-label" for="cardtableCheck<?= $key; ?>"><?= $user['email_id']; ?></label>
                                             </div>
                                         </td>
@@ -90,10 +101,9 @@
                         <div id="emails_error" class="text-danger w-100 mt-4"></div>
                     </div>
 
-                    <div class="col-lg-12 mt-5">
-                        <div class="hstack gap-2 justify-content-end">
-                            <button type="submit" class="btn btn-primary">Update</button>
-                            <button type="button" onclick="resetForm()" class="btn btn-soft-success">Reset</button>
+                    <div class="col-lg-12 mt-3">
+                        <div class="hstack gap-2 justify-content-end mb-5">
+                            <button type="submit" class="btn btn-primary">Send</button>
                         </div>
                     </div>
                 </div>
@@ -105,6 +115,7 @@
 </div>
 <!--end row-->
 <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
     $(document).ready(function() {
         ClassicEditor.create( document.querySelector( '.ckeditor-classic' ) )

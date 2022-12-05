@@ -151,7 +151,15 @@
     <div class="col-xl-12">
         <div class="card">
             <div class="card-header align-items-center d-flex">
-                <h4 class="card-title mb-0 flex-grow-1">Jobseeker List</h4>
+                <h4 class="card-title mb-0 d-flex align-items-center flex-grow-1">
+                    <span>Jobseeker List</span>
+                    
+                    <div style="display:none" class="mainSelection">
+                        <button id="deleteAll" type="button" class="btn btn-danger ms-4" data-bs-toggle="modal" data-bs-target="#BulkdeleteModal" >Delete All</button>
+                        <button id="sendMail" type="button" class="btn btn-success ms-2" >Send Mail</button>
+                    </div>
+
+                </h4>
                 <div class="flex-shrink-0">
                     <a href="<?= base_url() . '/admin/jobseeker/add/'; ?>" class="btn btn-primary">Add New Jobseeker</a>
                 </div>
@@ -166,6 +174,7 @@
                             <table class="table table-bordered align-middle table-nowrap mb-0">
                                 <thead>
                                     <tr>
+                                        <th scope="col"><input class="checkall" type="checkbox" > Check all</th>
                                         <th scope="col">ID</th>
                                         <th scope="col">Name</th>
                                         <th scope="col">Email Address</th>
@@ -178,9 +187,9 @@
                                 <tbody>
                                     <?php
                                     foreach ($users as $key => $value) {
-                                        //print'<pre>';print_r($value);die();   
                                     ?>
                                         <tr>
+                                            <td class="fw-medium"><input class="inputcheck" type="checkbox" name="ids[]" value="<?= $value['id']; ?>"></td>
                                             <td class="fw-medium"><?= $value['id']; ?></td>
                                             <td><?= $value['first_name']; ?></td>
                                             <td><?= $value['email_id']; ?></td>
@@ -224,6 +233,29 @@
     <!--end col-->
 </div>
 <!--end row-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="BulkdeleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteModalLabel">Delete Permanently</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure, you want to delete multiple records?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button id="deleteAllData" type="button" class="btn btn-danger" >Delete</button>
+            </div>
+            </div>
+        </div>
+        
+    </div>
+
+
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
 
 <script>
@@ -263,5 +295,113 @@
                 $('#deleteModal').modal('show');
             })
     });
+
+    $('.checkall').change(function(){
+        if ($(this).is(':checked')) {
+            $('.inputcheck').prop('checked', true);
+            show_hide();
+        }else{
+            $('.inputcheck').prop('checked', false);
+            show_hide();
+        }
+    });
+
+    $('input[name="ids[]"]').change(function(){
+        if ($(this).is(':checked')) {
+            show_hide();
+        }else{
+            show_hide();
+        }
+    });
+
+    function show_hide(){
+        if($('input[name="ids[]"]:checked').length > 0){
+            $('.mainSelection').show();
+        }else{
+            $('.mainSelection').hide();
+        }
+    }
+
+    $('#deleteAllData').click(function(){
+        var ids = new Array();
+        $(`input[name="ids[]"]:checked`).each(function() {
+            ids.push($(this).val());
+        });
+
+        if(ids){
+            $.ajax({
+                url: "<?= base_url().'/admin/jobseeker/bulk_delete' ?>",
+                type: "POST",
+                data: { ids : ids},
+                dataType:'JSON',
+                contentType: false,
+                cache: false,
+                processData: false,
+                beforeSend: function(msg){
+                    document.documentElement.setAttribute("data-preloader","enable")
+                },
+                success: function(data){
+                    if(data.status == 1){
+                        // success
+
+                        const Toast = Swal.mixin({
+                            toast: true,
+                            position: 'top-end',
+                            showConfirmButton: false,
+                            timer: 3000,
+                            timerProgressBar: true,
+                            didOpen: (toast) => {
+                                toast.addEventListener('mouseenter', Swal.stopTimer)
+                                toast.addEventListener('mouseleave', Swal.resumeTimer)
+                            }
+                        })
+
+                        Toast.fire({
+                            icon: 'success',
+                            title: data.message
+                        });
+
+                        setTimeout(function() {
+                            // reload Page
+                            window.location.href = "<?= base_url().'/admin/jobseeker/list' ?>";
+                        }, 2500);
+                        
+
+                    }else if(data.status == 2){
+                    
+                        $.each(data.errors, function (key, val) {
+                            $('#'+key+'_error').text(val);
+                        });
+                    }else{
+                        Swal.fire({
+                            icon: 'error',
+                            text: data.message
+                        })
+                    }
+                    
+                    document.documentElement.setAttribute("data-preloader","disable");
+                    
+                },error: function(error){
+                    alert('Something went wrong, Please try again!');
+                }
+            });
+        }
+    });
+
+    $('#sendMail').click(function(){
+
+        var ids = new Array();
+        $(`input[name="ids[]"]:checked`).each(function() {
+            ids.push($(this).val());
+        });
+
+        if(ids){
+            var selIds = ids.toString();
+            window.location.href = "<?= base_url().'/admin/jobseeker/bulk_email?ids=' ?>" + selIds;
+        }
+
+    });
+
+    
   </script>
 <?= view('admin/common/footer.php'); ?>
